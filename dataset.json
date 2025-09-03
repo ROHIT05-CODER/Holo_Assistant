@@ -1,0 +1,5202 @@
+[
+  {
+    "sku": "SKU60000",
+    "item": "apple",
+    "tamil_name": "ஆப்பிள்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 134
+  },
+  {
+    "sku": "SKU60001",
+    "item": "apple small pack",
+    "tamil_name": "ஆப்பிள் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 315
+  },
+  {
+    "sku": "SKU60002",
+    "item": "apple large pack",
+    "tamil_name": "ஆப்பிள் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 314
+  },
+  {
+    "sku": "SKU60003",
+    "item": "apple family pack",
+    "tamil_name": "ஆப்பிள் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 213
+  },
+  {
+    "sku": "SKU60004",
+    "item": "apple organic",
+    "tamil_name": "ஆப்பிள் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 239
+  },
+  {
+    "sku": "SKU60005",
+    "item": "apple premium",
+    "tamil_name": "ஆப்பிள் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 84
+  },
+  {
+    "sku": "SKU60006",
+    "item": "apple economy",
+    "tamil_name": "ஆப்பிள் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 178
+  },
+  {
+    "sku": "SKU60007",
+    "item": "banana",
+    "tamil_name": "வாழைப்பழம்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 143
+  },
+  {
+    "sku": "SKU60008",
+    "item": "banana small pack",
+    "tamil_name": "வாழைப்பழம் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 219
+  },
+  {
+    "sku": "SKU60009",
+    "item": "banana large pack",
+    "tamil_name": "வாழைப்பழம் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 188
+  },
+  {
+    "sku": "SKU60010",
+    "item": "banana family pack",
+    "tamil_name": "வாழைப்பழம் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 335
+  },
+  {
+    "sku": "SKU60011",
+    "item": "banana organic",
+    "tamil_name": "வாழைப்பழம் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 70
+  },
+  {
+    "sku": "SKU60012",
+    "item": "banana premium",
+    "tamil_name": "வாழைப்பழம் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 194
+  },
+  {
+    "sku": "SKU60013",
+    "item": "banana economy",
+    "tamil_name": "வாழைப்பழம் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 286
+  },
+  {
+    "sku": "SKU60014",
+    "item": "mango",
+    "tamil_name": "மாம்பழம்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 295
+  },
+  {
+    "sku": "SKU60015",
+    "item": "mango small pack",
+    "tamil_name": "மாம்பழம் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 260
+  },
+  {
+    "sku": "SKU60016",
+    "item": "mango large pack",
+    "tamil_name": "மாம்பழம் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 348
+  },
+  {
+    "sku": "SKU60017",
+    "item": "mango family pack",
+    "tamil_name": "மாம்பழம் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 179
+  },
+  {
+    "sku": "SKU60018",
+    "item": "mango organic",
+    "tamil_name": "மாம்பழம் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 35
+  },
+  {
+    "sku": "SKU60019",
+    "item": "mango premium",
+    "tamil_name": "மாம்பழம் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 285
+  },
+  {
+    "sku": "SKU60020",
+    "item": "mango economy",
+    "tamil_name": "மாம்பழம் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 178
+  },
+  {
+    "sku": "SKU60021",
+    "item": "orange",
+    "tamil_name": "ஆரஞ்சு",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 291
+  },
+  {
+    "sku": "SKU60022",
+    "item": "orange small pack",
+    "tamil_name": "ஆரஞ்சு small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 156
+  },
+  {
+    "sku": "SKU60023",
+    "item": "orange large pack",
+    "tamil_name": "ஆரஞ்சு large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 97
+  },
+  {
+    "sku": "SKU60024",
+    "item": "orange family pack",
+    "tamil_name": "ஆரஞ்சு family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 37
+  },
+  {
+    "sku": "SKU60025",
+    "item": "orange organic",
+    "tamil_name": "ஆரஞ்சு organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 314
+  },
+  {
+    "sku": "SKU60026",
+    "item": "orange premium",
+    "tamil_name": "ஆரஞ்சு premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 374
+  },
+  {
+    "sku": "SKU60027",
+    "item": "orange economy",
+    "tamil_name": "ஆரஞ்சு economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 232
+  },
+  {
+    "sku": "SKU60028",
+    "item": "grapes",
+    "tamil_name": "திராட்சை",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 36
+  },
+  {
+    "sku": "SKU60029",
+    "item": "grapes small pack",
+    "tamil_name": "திராட்சை small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 363
+  },
+  {
+    "sku": "SKU60030",
+    "item": "grapes large pack",
+    "tamil_name": "திராட்சை large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 89
+  },
+  {
+    "sku": "SKU60031",
+    "item": "grapes family pack",
+    "tamil_name": "திராட்சை family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 222
+  },
+  {
+    "sku": "SKU60032",
+    "item": "grapes organic",
+    "tamil_name": "திராட்சை organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 345
+  },
+  {
+    "sku": "SKU60033",
+    "item": "grapes premium",
+    "tamil_name": "திராட்சை premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 33
+  },
+  {
+    "sku": "SKU60034",
+    "item": "grapes economy",
+    "tamil_name": "திராட்சை economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 288
+  },
+  {
+    "sku": "SKU60035",
+    "item": "watermelon",
+    "tamil_name": "தர்பூசணி",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 111
+  },
+  {
+    "sku": "SKU60036",
+    "item": "watermelon small pack",
+    "tamil_name": "தர்பூசணி small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 57
+  },
+  {
+    "sku": "SKU60037",
+    "item": "watermelon large pack",
+    "tamil_name": "தர்பூசணி large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 367
+  },
+  {
+    "sku": "SKU60038",
+    "item": "watermelon family pack",
+    "tamil_name": "தர்பூசணி family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 190
+  },
+  {
+    "sku": "SKU60039",
+    "item": "watermelon organic",
+    "tamil_name": "தர்பூசணி organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 215
+  },
+  {
+    "sku": "SKU60040",
+    "item": "watermelon premium",
+    "tamil_name": "தர்பூசணி premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 91
+  },
+  {
+    "sku": "SKU60041",
+    "item": "watermelon economy",
+    "tamil_name": "தர்பூசணி economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 389
+  },
+  {
+    "sku": "SKU60042",
+    "item": "papaya",
+    "tamil_name": "பப்பாளி",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 221
+  },
+  {
+    "sku": "SKU60043",
+    "item": "papaya small pack",
+    "tamil_name": "பப்பாளி small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 310
+  },
+  {
+    "sku": "SKU60044",
+    "item": "papaya large pack",
+    "tamil_name": "பப்பாளி large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 294
+  },
+  {
+    "sku": "SKU60045",
+    "item": "papaya family pack",
+    "tamil_name": "பப்பாளி family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 150
+  },
+  {
+    "sku": "SKU60046",
+    "item": "papaya organic",
+    "tamil_name": "பப்பாளி organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 334
+  },
+  {
+    "sku": "SKU60047",
+    "item": "papaya premium",
+    "tamil_name": "பப்பாளி premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 235
+  },
+  {
+    "sku": "SKU60048",
+    "item": "papaya economy",
+    "tamil_name": "பப்பாளி economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 228
+  },
+  {
+    "sku": "SKU60049",
+    "item": "pomegranate",
+    "tamil_name": "மாதுளை",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 294
+  },
+  {
+    "sku": "SKU60050",
+    "item": "pomegranate small pack",
+    "tamil_name": "மாதுளை small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 85
+  },
+  {
+    "sku": "SKU60051",
+    "item": "pomegranate large pack",
+    "tamil_name": "மாதுளை large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 226
+  },
+  {
+    "sku": "SKU60052",
+    "item": "pomegranate family pack",
+    "tamil_name": "மாதுளை family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 174
+  },
+  {
+    "sku": "SKU60053",
+    "item": "pomegranate organic",
+    "tamil_name": "மாதுளை organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 237
+  },
+  {
+    "sku": "SKU60054",
+    "item": "pomegranate premium",
+    "tamil_name": "மாதுளை premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 377
+  },
+  {
+    "sku": "SKU60055",
+    "item": "pomegranate economy",
+    "tamil_name": "மாதுளை economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 384
+  },
+  {
+    "sku": "SKU60056",
+    "item": "guava",
+    "tamil_name": "கொய்யா",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 282
+  },
+  {
+    "sku": "SKU60057",
+    "item": "guava small pack",
+    "tamil_name": "கொய்யா small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 202
+  },
+  {
+    "sku": "SKU60058",
+    "item": "guava large pack",
+    "tamil_name": "கொய்யா large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 330
+  },
+  {
+    "sku": "SKU60059",
+    "item": "guava family pack",
+    "tamil_name": "கொய்யா family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 144
+  },
+  {
+    "sku": "SKU60060",
+    "item": "guava organic",
+    "tamil_name": "கொய்யா organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 219
+  },
+  {
+    "sku": "SKU60061",
+    "item": "guava premium",
+    "tamil_name": "கொய்யா premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 301
+  },
+  {
+    "sku": "SKU60062",
+    "item": "guava economy",
+    "tamil_name": "கொய்யா economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 78
+  },
+  {
+    "sku": "SKU60063",
+    "item": "pineapple",
+    "tamil_name": "அன்னாசி",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 164
+  },
+  {
+    "sku": "SKU60064",
+    "item": "pineapple small pack",
+    "tamil_name": "அன்னாசி small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 389
+  },
+  {
+    "sku": "SKU60065",
+    "item": "pineapple large pack",
+    "tamil_name": "அன்னாசி large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 251
+  },
+  {
+    "sku": "SKU60066",
+    "item": "pineapple family pack",
+    "tamil_name": "அன்னாசி family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 74
+  },
+  {
+    "sku": "SKU60067",
+    "item": "pineapple organic",
+    "tamil_name": "அன்னாசி organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 30
+  },
+  {
+    "sku": "SKU60068",
+    "item": "pineapple premium",
+    "tamil_name": "அன்னாசி premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 229
+  },
+  {
+    "sku": "SKU60069",
+    "item": "pineapple economy",
+    "tamil_name": "அன்னாசி economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 254
+  },
+  {
+    "sku": "SKU60070",
+    "item": "strawberry",
+    "tamil_name": "ஸ்ட்ராபெரி",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 133
+  },
+  {
+    "sku": "SKU60071",
+    "item": "strawberry small pack",
+    "tamil_name": "ஸ்ட்ராபெரி small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 214
+  },
+  {
+    "sku": "SKU60072",
+    "item": "strawberry large pack",
+    "tamil_name": "ஸ்ட்ராபெரி large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 320
+  },
+  {
+    "sku": "SKU60073",
+    "item": "strawberry family pack",
+    "tamil_name": "ஸ்ட்ராபெரி family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 183
+  },
+  {
+    "sku": "SKU60074",
+    "item": "strawberry organic",
+    "tamil_name": "ஸ்ட்ராபெரி organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 244
+  },
+  {
+    "sku": "SKU60075",
+    "item": "strawberry premium",
+    "tamil_name": "ஸ்ட்ராபெரி premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 213
+  },
+  {
+    "sku": "SKU60076",
+    "item": "strawberry economy",
+    "tamil_name": "ஸ்ட்ராபெரி economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 218
+  },
+  {
+    "sku": "SKU60077",
+    "item": "kiwi",
+    "tamil_name": "கிவி",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 48
+  },
+  {
+    "sku": "SKU60078",
+    "item": "kiwi small pack",
+    "tamil_name": "கிவி small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 79
+  },
+  {
+    "sku": "SKU60079",
+    "item": "kiwi large pack",
+    "tamil_name": "கிவி large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 288
+  },
+  {
+    "sku": "SKU60080",
+    "item": "kiwi family pack",
+    "tamil_name": "கிவி family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 57
+  },
+  {
+    "sku": "SKU60081",
+    "item": "kiwi organic",
+    "tamil_name": "கிவி organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 140
+  },
+  {
+    "sku": "SKU60082",
+    "item": "kiwi premium",
+    "tamil_name": "கிவி premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 331
+  },
+  {
+    "sku": "SKU60083",
+    "item": "kiwi economy",
+    "tamil_name": "கிவி economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 333
+  },
+  {
+    "sku": "SKU60084",
+    "item": "pear",
+    "tamil_name": "பேரிக்காய்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 284
+  },
+  {
+    "sku": "SKU60085",
+    "item": "pear small pack",
+    "tamil_name": "பேரிக்காய் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 350
+  },
+  {
+    "sku": "SKU60086",
+    "item": "pear large pack",
+    "tamil_name": "பேரிக்காய் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 256
+  },
+  {
+    "sku": "SKU60087",
+    "item": "pear family pack",
+    "tamil_name": "பேரிக்காய் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 206
+  },
+  {
+    "sku": "SKU60088",
+    "item": "pear organic",
+    "tamil_name": "பேரிக்காய் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 263
+  },
+  {
+    "sku": "SKU60089",
+    "item": "pear premium",
+    "tamil_name": "பேரிக்காய் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 122
+  },
+  {
+    "sku": "SKU60090",
+    "item": "pear economy",
+    "tamil_name": "பேரிக்காய் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 140
+  },
+  {
+    "sku": "SKU60091",
+    "item": "peach",
+    "tamil_name": "பீச்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 51
+  },
+  {
+    "sku": "SKU60092",
+    "item": "peach small pack",
+    "tamil_name": "பீச் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 194
+  },
+  {
+    "sku": "SKU60093",
+    "item": "peach large pack",
+    "tamil_name": "பீச் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 271
+  },
+  {
+    "sku": "SKU60094",
+    "item": "peach family pack",
+    "tamil_name": "பீச் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 285
+  },
+  {
+    "sku": "SKU60095",
+    "item": "peach organic",
+    "tamil_name": "பீச் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 111
+  },
+  {
+    "sku": "SKU60096",
+    "item": "peach premium",
+    "tamil_name": "பீச் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 44
+  },
+  {
+    "sku": "SKU60097",
+    "item": "peach economy",
+    "tamil_name": "பீச் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 318
+  },
+  {
+    "sku": "SKU60098",
+    "item": "fig",
+    "tamil_name": "அத்திப்பழம்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 278
+  },
+  {
+    "sku": "SKU60099",
+    "item": "fig small pack",
+    "tamil_name": "அத்திப்பழம் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 192
+  },
+  {
+    "sku": "SKU60100",
+    "item": "fig large pack",
+    "tamil_name": "அத்திப்பழம் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 303
+  },
+  {
+    "sku": "SKU60101",
+    "item": "fig family pack",
+    "tamil_name": "அத்திப்பழம் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 158
+  },
+  {
+    "sku": "SKU60102",
+    "item": "fig organic",
+    "tamil_name": "அத்திப்பழம் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 355
+  },
+  {
+    "sku": "SKU60103",
+    "item": "fig premium",
+    "tamil_name": "அத்திப்பழம் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 139
+  },
+  {
+    "sku": "SKU60104",
+    "item": "fig economy",
+    "tamil_name": "அத்திப்பழம் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 180
+  },
+  {
+    "sku": "SKU60105",
+    "item": "dates",
+    "tamil_name": "பேரீச்சம் பழம்",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 207
+  },
+  {
+    "sku": "SKU60106",
+    "item": "dates small pack",
+    "tamil_name": "பேரீச்சம் பழம் small pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 83
+  },
+  {
+    "sku": "SKU60107",
+    "item": "dates large pack",
+    "tamil_name": "பேரீச்சம் பழம் large pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 355
+  },
+  {
+    "sku": "SKU60108",
+    "item": "dates family pack",
+    "tamil_name": "பேரீச்சம் பழம் family pack",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 76
+  },
+  {
+    "sku": "SKU60109",
+    "item": "dates organic",
+    "tamil_name": "பேரீச்சம் பழம் organic",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 162
+  },
+  {
+    "sku": "SKU60110",
+    "item": "dates premium",
+    "tamil_name": "பேரீச்சம் பழம் premium",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 294
+  },
+  {
+    "sku": "SKU60111",
+    "item": "dates economy",
+    "tamil_name": "பேரீச்சம் பழம் economy",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 52
+  },
+  {
+    "sku": "SKU60112",
+    "item": "tomato",
+    "tamil_name": "தக்காளி",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 102
+  },
+  {
+    "sku": "SKU60113",
+    "item": "tomato small pack",
+    "tamil_name": "தக்காளி small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 280
+  },
+  {
+    "sku": "SKU60114",
+    "item": "tomato large pack",
+    "tamil_name": "தக்காளி large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 354
+  },
+  {
+    "sku": "SKU60115",
+    "item": "tomato family pack",
+    "tamil_name": "தக்காளி family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 32
+  },
+  {
+    "sku": "SKU60116",
+    "item": "tomato organic",
+    "tamil_name": "தக்காளி organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 281
+  },
+  {
+    "sku": "SKU60117",
+    "item": "tomato premium",
+    "tamil_name": "தக்காளி premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 54
+  },
+  {
+    "sku": "SKU60118",
+    "item": "tomato economy",
+    "tamil_name": "தக்காளி economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 29
+  },
+  {
+    "sku": "SKU60119",
+    "item": "onion",
+    "tamil_name": "வெங்காயம்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 53
+  },
+  {
+    "sku": "SKU60120",
+    "item": "onion small pack",
+    "tamil_name": "வெங்காயம் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 351
+  },
+  {
+    "sku": "SKU60121",
+    "item": "onion large pack",
+    "tamil_name": "வெங்காயம் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 220
+  },
+  {
+    "sku": "SKU60122",
+    "item": "onion family pack",
+    "tamil_name": "வெங்காயம் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 290
+  },
+  {
+    "sku": "SKU60123",
+    "item": "onion organic",
+    "tamil_name": "வெங்காயம் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 112
+  },
+  {
+    "sku": "SKU60124",
+    "item": "onion premium",
+    "tamil_name": "வெங்காயம் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 297
+  },
+  {
+    "sku": "SKU60125",
+    "item": "onion economy",
+    "tamil_name": "வெங்காயம் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 111
+  },
+  {
+    "sku": "SKU60126",
+    "item": "potato",
+    "tamil_name": "உருளைக்கிழங்கு",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 150
+  },
+  {
+    "sku": "SKU60127",
+    "item": "potato small pack",
+    "tamil_name": "உருளைக்கிழங்கு small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 275
+  },
+  {
+    "sku": "SKU60128",
+    "item": "potato large pack",
+    "tamil_name": "உருளைக்கிழங்கு large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 38
+  },
+  {
+    "sku": "SKU60129",
+    "item": "potato family pack",
+    "tamil_name": "உருளைக்கிழங்கு family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 215
+  },
+  {
+    "sku": "SKU60130",
+    "item": "potato organic",
+    "tamil_name": "உருளைக்கிழங்கு organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 250
+  },
+  {
+    "sku": "SKU60131",
+    "item": "potato premium",
+    "tamil_name": "உருளைக்கிழங்கு premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 166
+  },
+  {
+    "sku": "SKU60132",
+    "item": "potato economy",
+    "tamil_name": "உருளைக்கிழங்கு economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 239
+  },
+  {
+    "sku": "SKU60133",
+    "item": "carrot",
+    "tamil_name": "காரட்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 188
+  },
+  {
+    "sku": "SKU60134",
+    "item": "carrot small pack",
+    "tamil_name": "காரட் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 210
+  },
+  {
+    "sku": "SKU60135",
+    "item": "carrot large pack",
+    "tamil_name": "காரட் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 198
+  },
+  {
+    "sku": "SKU60136",
+    "item": "carrot family pack",
+    "tamil_name": "காரட் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 233
+  },
+  {
+    "sku": "SKU60137",
+    "item": "carrot organic",
+    "tamil_name": "காரட் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 385
+  },
+  {
+    "sku": "SKU60138",
+    "item": "carrot premium",
+    "tamil_name": "காரட் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 215
+  },
+  {
+    "sku": "SKU60139",
+    "item": "carrot economy",
+    "tamil_name": "காரட் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 206
+  },
+  {
+    "sku": "SKU60140",
+    "item": "beans",
+    "tamil_name": "பீன்ஸ்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 116
+  },
+  {
+    "sku": "SKU60141",
+    "item": "beans small pack",
+    "tamil_name": "பீன்ஸ் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 241
+  },
+  {
+    "sku": "SKU60142",
+    "item": "beans large pack",
+    "tamil_name": "பீன்ஸ் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 387
+  },
+  {
+    "sku": "SKU60143",
+    "item": "beans family pack",
+    "tamil_name": "பீன்ஸ் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 268
+  },
+  {
+    "sku": "SKU60144",
+    "item": "beans organic",
+    "tamil_name": "பீன்ஸ் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 222
+  },
+  {
+    "sku": "SKU60145",
+    "item": "beans premium",
+    "tamil_name": "பீன்ஸ் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 354
+  },
+  {
+    "sku": "SKU60146",
+    "item": "beans economy",
+    "tamil_name": "பீன்ஸ் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 365
+  },
+  {
+    "sku": "SKU60147",
+    "item": "brinjal",
+    "tamil_name": "கத்தரிக்காய்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 148
+  },
+  {
+    "sku": "SKU60148",
+    "item": "brinjal small pack",
+    "tamil_name": "கத்தரிக்காய் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 87
+  },
+  {
+    "sku": "SKU60149",
+    "item": "brinjal large pack",
+    "tamil_name": "கத்தரிக்காய் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 54
+  },
+  {
+    "sku": "SKU60150",
+    "item": "brinjal family pack",
+    "tamil_name": "கத்தரிக்காய் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 144
+  },
+  {
+    "sku": "SKU60151",
+    "item": "brinjal organic",
+    "tamil_name": "கத்தரிக்காய் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 96
+  },
+  {
+    "sku": "SKU60152",
+    "item": "brinjal premium",
+    "tamil_name": "கத்தரிக்காய் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 96
+  },
+  {
+    "sku": "SKU60153",
+    "item": "brinjal economy",
+    "tamil_name": "கத்தரிக்காய் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 111
+  },
+  {
+    "sku": "SKU60154",
+    "item": "cabbage",
+    "tamil_name": "முட்டைகோசு",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 237
+  },
+  {
+    "sku": "SKU60155",
+    "item": "cabbage small pack",
+    "tamil_name": "முட்டைகோசு small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 213
+  },
+  {
+    "sku": "SKU60156",
+    "item": "cabbage large pack",
+    "tamil_name": "முட்டைகோசு large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 258
+  },
+  {
+    "sku": "SKU60157",
+    "item": "cabbage family pack",
+    "tamil_name": "முட்டைகோசு family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 79
+  },
+  {
+    "sku": "SKU60158",
+    "item": "cabbage organic",
+    "tamil_name": "முட்டைகோசு organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 334
+  },
+  {
+    "sku": "SKU60159",
+    "item": "cabbage premium",
+    "tamil_name": "முட்டைகோசு premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 35
+  },
+  {
+    "sku": "SKU60160",
+    "item": "cabbage economy",
+    "tamil_name": "முட்டைகோசு economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 52
+  },
+  {
+    "sku": "SKU60161",
+    "item": "cauliflower",
+    "tamil_name": "காலிஃபிளவர்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 266
+  },
+  {
+    "sku": "SKU60162",
+    "item": "cauliflower small pack",
+    "tamil_name": "காலிஃபிளவர் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 48
+  },
+  {
+    "sku": "SKU60163",
+    "item": "cauliflower large pack",
+    "tamil_name": "காலிஃபிளவர் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 394
+  },
+  {
+    "sku": "SKU60164",
+    "item": "cauliflower family pack",
+    "tamil_name": "காலிஃபிளவர் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 298
+  },
+  {
+    "sku": "SKU60165",
+    "item": "cauliflower organic",
+    "tamil_name": "காலிஃபிளவர் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 235
+  },
+  {
+    "sku": "SKU60166",
+    "item": "cauliflower premium",
+    "tamil_name": "காலிஃபிளவர் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 127
+  },
+  {
+    "sku": "SKU60167",
+    "item": "cauliflower economy",
+    "tamil_name": "காலிஃபிளவர் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 228
+  },
+  {
+    "sku": "SKU60168",
+    "item": "beetroot",
+    "tamil_name": "பீட்ரூட்",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 236
+  },
+  {
+    "sku": "SKU60169",
+    "item": "beetroot small pack",
+    "tamil_name": "பீட்ரூட் small pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 140
+  },
+  {
+    "sku": "SKU60170",
+    "item": "beetroot large pack",
+    "tamil_name": "பீட்ரூட் large pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 147
+  },
+  {
+    "sku": "SKU60171",
+    "item": "beetroot family pack",
+    "tamil_name": "பீட்ரூட் family pack",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 73
+  },
+  {
+    "sku": "SKU60172",
+    "item": "beetroot organic",
+    "tamil_name": "பீட்ரூட் organic",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 193
+  },
+  {
+    "sku": "SKU60173",
+    "item": "beetroot premium",
+    "tamil_name": "பீட்ரூட் premium",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 397
+  },
+  {
+    "sku": "SKU60174",
+    "item": "beetroot economy",
+    "tamil_name": "பீட்ரூட் economy",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 66
+  },
+  {
+    "sku": "SKU60175",
+    "item": "milk",
+    "tamil_name": "பால்",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 126
+  },
+  {
+    "sku": "SKU60176",
+    "item": "milk small pack",
+    "tamil_name": "பால் small pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 245
+  },
+  {
+    "sku": "SKU60177",
+    "item": "milk large pack",
+    "tamil_name": "பால் large pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 255
+  },
+  {
+    "sku": "SKU60178",
+    "item": "milk family pack",
+    "tamil_name": "பால் family pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 206
+  },
+  {
+    "sku": "SKU60179",
+    "item": "milk organic",
+    "tamil_name": "பால் organic",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 28
+  },
+  {
+    "sku": "SKU60180",
+    "item": "milk premium",
+    "tamil_name": "பால் premium",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 170
+  },
+  {
+    "sku": "SKU60181",
+    "item": "milk economy",
+    "tamil_name": "பால் economy",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 222
+  },
+  {
+    "sku": "SKU60182",
+    "item": "curd",
+    "tamil_name": "தயிர்",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 87
+  },
+  {
+    "sku": "SKU60183",
+    "item": "curd small pack",
+    "tamil_name": "தயிர் small pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 155
+  },
+  {
+    "sku": "SKU60184",
+    "item": "curd large pack",
+    "tamil_name": "தயிர் large pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 218
+  },
+  {
+    "sku": "SKU60185",
+    "item": "curd family pack",
+    "tamil_name": "தயிர் family pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 210
+  },
+  {
+    "sku": "SKU60186",
+    "item": "curd organic",
+    "tamil_name": "தயிர் organic",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 185
+  },
+  {
+    "sku": "SKU60187",
+    "item": "curd premium",
+    "tamil_name": "தயிர் premium",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 399
+  },
+  {
+    "sku": "SKU60188",
+    "item": "curd economy",
+    "tamil_name": "தயிர் economy",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 105
+  },
+  {
+    "sku": "SKU60189",
+    "item": "butter",
+    "tamil_name": "வெண்ணெய்",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 273
+  },
+  {
+    "sku": "SKU60190",
+    "item": "butter small pack",
+    "tamil_name": "வெண்ணெய் small pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 85
+  },
+  {
+    "sku": "SKU60191",
+    "item": "butter large pack",
+    "tamil_name": "வெண்ணெய் large pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 76
+  },
+  {
+    "sku": "SKU60192",
+    "item": "butter family pack",
+    "tamil_name": "வெண்ணெய் family pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 235
+  },
+  {
+    "sku": "SKU60193",
+    "item": "butter organic",
+    "tamil_name": "வெண்ணெய் organic",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 285
+  },
+  {
+    "sku": "SKU60194",
+    "item": "butter premium",
+    "tamil_name": "வெண்ணெய் premium",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 32
+  },
+  {
+    "sku": "SKU60195",
+    "item": "butter economy",
+    "tamil_name": "வெண்ணெய் economy",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 358
+  },
+  {
+    "sku": "SKU60196",
+    "item": "ghee",
+    "tamil_name": "நெய்",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 59
+  },
+  {
+    "sku": "SKU60197",
+    "item": "ghee small pack",
+    "tamil_name": "நெய் small pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 210
+  },
+  {
+    "sku": "SKU60198",
+    "item": "ghee large pack",
+    "tamil_name": "நெய் large pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 141
+  },
+  {
+    "sku": "SKU60199",
+    "item": "ghee family pack",
+    "tamil_name": "நெய் family pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 46
+  },
+  {
+    "sku": "SKU60200",
+    "item": "ghee organic",
+    "tamil_name": "நெய் organic",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 25
+  },
+  {
+    "sku": "SKU60201",
+    "item": "ghee premium",
+    "tamil_name": "நெய் premium",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 398
+  },
+  {
+    "sku": "SKU60202",
+    "item": "ghee economy",
+    "tamil_name": "நெய் economy",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 156
+  },
+  {
+    "sku": "SKU60203",
+    "item": "paneer",
+    "tamil_name": "பனீர்",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 241
+  },
+  {
+    "sku": "SKU60204",
+    "item": "paneer small pack",
+    "tamil_name": "பனீர் small pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 305
+  },
+  {
+    "sku": "SKU60205",
+    "item": "paneer large pack",
+    "tamil_name": "பனீர் large pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 313
+  },
+  {
+    "sku": "SKU60206",
+    "item": "paneer family pack",
+    "tamil_name": "பனீர் family pack",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 364
+  },
+  {
+    "sku": "SKU60207",
+    "item": "paneer organic",
+    "tamil_name": "பனீர் organic",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 259
+  },
+  {
+    "sku": "SKU60208",
+    "item": "paneer premium",
+    "tamil_name": "பனீர் premium",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 174
+  },
+  {
+    "sku": "SKU60209",
+    "item": "paneer economy",
+    "tamil_name": "பனீர் economy",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 269
+  },
+  {
+    "sku": "SKU60210",
+    "item": "rice",
+    "tamil_name": "அரிசி",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 239
+  },
+  {
+    "sku": "SKU60211",
+    "item": "rice small pack",
+    "tamil_name": "அரிசி small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 233
+  },
+  {
+    "sku": "SKU60212",
+    "item": "rice large pack",
+    "tamil_name": "அரிசி large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 279
+  },
+  {
+    "sku": "SKU60213",
+    "item": "rice family pack",
+    "tamil_name": "அரிசி family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 338
+  },
+  {
+    "sku": "SKU60214",
+    "item": "rice organic",
+    "tamil_name": "அரிசி organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 207
+  },
+  {
+    "sku": "SKU60215",
+    "item": "rice premium",
+    "tamil_name": "அரிசி premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 130
+  },
+  {
+    "sku": "SKU60216",
+    "item": "rice economy",
+    "tamil_name": "அரிசி economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 97
+  },
+  {
+    "sku": "SKU60217",
+    "item": "wheat",
+    "tamil_name": "கோதுமை",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 111
+  },
+  {
+    "sku": "SKU60218",
+    "item": "wheat small pack",
+    "tamil_name": "கோதுமை small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 262
+  },
+  {
+    "sku": "SKU60219",
+    "item": "wheat large pack",
+    "tamil_name": "கோதுமை large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 108
+  },
+  {
+    "sku": "SKU60220",
+    "item": "wheat family pack",
+    "tamil_name": "கோதுமை family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 236
+  },
+  {
+    "sku": "SKU60221",
+    "item": "wheat organic",
+    "tamil_name": "கோதுமை organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 333
+  },
+  {
+    "sku": "SKU60222",
+    "item": "wheat premium",
+    "tamil_name": "கோதுமை premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 203
+  },
+  {
+    "sku": "SKU60223",
+    "item": "wheat economy",
+    "tamil_name": "கோதுமை economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 224
+  },
+  {
+    "sku": "SKU60224",
+    "item": "sugar",
+    "tamil_name": "சர்க்கரை",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 42
+  },
+  {
+    "sku": "SKU60225",
+    "item": "sugar small pack",
+    "tamil_name": "சர்க்கரை small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 297
+  },
+  {
+    "sku": "SKU60226",
+    "item": "sugar large pack",
+    "tamil_name": "சர்க்கரை large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 76
+  },
+  {
+    "sku": "SKU60227",
+    "item": "sugar family pack",
+    "tamil_name": "சர்க்கரை family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 191
+  },
+  {
+    "sku": "SKU60228",
+    "item": "sugar organic",
+    "tamil_name": "சர்க்கரை organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 183
+  },
+  {
+    "sku": "SKU60229",
+    "item": "sugar premium",
+    "tamil_name": "சர்க்கரை premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 303
+  },
+  {
+    "sku": "SKU60230",
+    "item": "sugar economy",
+    "tamil_name": "சர்க்கரை economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 45
+  },
+  {
+    "sku": "SKU60231",
+    "item": "salt",
+    "tamil_name": "உப்பு",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 159
+  },
+  {
+    "sku": "SKU60232",
+    "item": "salt small pack",
+    "tamil_name": "உப்பு small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 354
+  },
+  {
+    "sku": "SKU60233",
+    "item": "salt large pack",
+    "tamil_name": "உப்பு large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 390
+  },
+  {
+    "sku": "SKU60234",
+    "item": "salt family pack",
+    "tamil_name": "உப்பு family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 304
+  },
+  {
+    "sku": "SKU60235",
+    "item": "salt organic",
+    "tamil_name": "உப்பு organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 176
+  },
+  {
+    "sku": "SKU60236",
+    "item": "salt premium",
+    "tamil_name": "உப்பு premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 50
+  },
+  {
+    "sku": "SKU60237",
+    "item": "salt economy",
+    "tamil_name": "உப்பு economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 211
+  },
+  {
+    "sku": "SKU60238",
+    "item": "tea",
+    "tamil_name": "தேநீர்",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 63
+  },
+  {
+    "sku": "SKU60239",
+    "item": "tea small pack",
+    "tamil_name": "தேநீர் small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 106
+  },
+  {
+    "sku": "SKU60240",
+    "item": "tea large pack",
+    "tamil_name": "தேநீர் large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 267
+  },
+  {
+    "sku": "SKU60241",
+    "item": "tea family pack",
+    "tamil_name": "தேநீர் family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 67
+  },
+  {
+    "sku": "SKU60242",
+    "item": "tea organic",
+    "tamil_name": "தேநீர் organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 207
+  },
+  {
+    "sku": "SKU60243",
+    "item": "tea premium",
+    "tamil_name": "தேநீர் premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 20
+  },
+  {
+    "sku": "SKU60244",
+    "item": "tea economy",
+    "tamil_name": "தேநீர் economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 311
+  },
+  {
+    "sku": "SKU60245",
+    "item": "coffee",
+    "tamil_name": "காபி",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 270
+  },
+  {
+    "sku": "SKU60246",
+    "item": "coffee small pack",
+    "tamil_name": "காபி small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 383
+  },
+  {
+    "sku": "SKU60247",
+    "item": "coffee large pack",
+    "tamil_name": "காபி large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 320
+  },
+  {
+    "sku": "SKU60248",
+    "item": "coffee family pack",
+    "tamil_name": "காபி family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 378
+  },
+  {
+    "sku": "SKU60249",
+    "item": "coffee organic",
+    "tamil_name": "காபி organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 400
+  },
+  {
+    "sku": "SKU60250",
+    "item": "coffee premium",
+    "tamil_name": "காபி premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 374
+  },
+  {
+    "sku": "SKU60251",
+    "item": "coffee economy",
+    "tamil_name": "காபி economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 181
+  },
+  {
+    "sku": "SKU60252",
+    "item": "oil",
+    "tamil_name": "எண்ணெய்",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 104
+  },
+  {
+    "sku": "SKU60253",
+    "item": "oil small pack",
+    "tamil_name": "எண்ணெய் small pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 360
+  },
+  {
+    "sku": "SKU60254",
+    "item": "oil large pack",
+    "tamil_name": "எண்ணெய் large pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 336
+  },
+  {
+    "sku": "SKU60255",
+    "item": "oil family pack",
+    "tamil_name": "எண்ணெய் family pack",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 156
+  },
+  {
+    "sku": "SKU60256",
+    "item": "oil organic",
+    "tamil_name": "எண்ணெய் organic",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 321
+  },
+  {
+    "sku": "SKU60257",
+    "item": "oil premium",
+    "tamil_name": "எண்ணெய் premium",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 390
+  },
+  {
+    "sku": "SKU60258",
+    "item": "oil economy",
+    "tamil_name": "எண்ணெய் economy",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 361
+  },
+  {
+    "sku": "SKU60259",
+    "item": "biscuits",
+    "tamil_name": "பிஸ்கட்",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 234
+  },
+  {
+    "sku": "SKU60260",
+    "item": "biscuits small pack",
+    "tamil_name": "பிஸ்கட் small pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 55
+  },
+  {
+    "sku": "SKU60261",
+    "item": "biscuits large pack",
+    "tamil_name": "பிஸ்கட் large pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 286
+  },
+  {
+    "sku": "SKU60262",
+    "item": "biscuits family pack",
+    "tamil_name": "பிஸ்கட் family pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 143
+  },
+  {
+    "sku": "SKU60263",
+    "item": "biscuits organic",
+    "tamil_name": "பிஸ்கட் organic",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 367
+  },
+  {
+    "sku": "SKU60264",
+    "item": "biscuits premium",
+    "tamil_name": "பிஸ்கட் premium",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 330
+  },
+  {
+    "sku": "SKU60265",
+    "item": "biscuits economy",
+    "tamil_name": "பிஸ்கட் economy",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 340
+  },
+  {
+    "sku": "SKU60266",
+    "item": "chips",
+    "tamil_name": "சிப்ஸ்",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 106
+  },
+  {
+    "sku": "SKU60267",
+    "item": "chips small pack",
+    "tamil_name": "சிப்ஸ் small pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 244
+  },
+  {
+    "sku": "SKU60268",
+    "item": "chips large pack",
+    "tamil_name": "சிப்ஸ் large pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 224
+  },
+  {
+    "sku": "SKU60269",
+    "item": "chips family pack",
+    "tamil_name": "சிப்ஸ் family pack",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 269
+  },
+  {
+    "sku": "SKU60270",
+    "item": "chips organic",
+    "tamil_name": "சிப்ஸ் organic",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 378
+  },
+  {
+    "sku": "SKU60271",
+    "item": "chips premium",
+    "tamil_name": "சிப்ஸ் premium",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 375
+  },
+  {
+    "sku": "SKU60272",
+    "item": "chips economy",
+    "tamil_name": "சிப்ஸ் economy",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 281
+  },
+  {
+    "sku": "SKU60273",
+    "item": "headphones",
+    "tamil_name": "காதுச்செவி",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 205
+  },
+  {
+    "sku": "SKU60274",
+    "item": "headphones small pack",
+    "tamil_name": "காதுச்செவி small pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 151
+  },
+  {
+    "sku": "SKU60275",
+    "item": "headphones large pack",
+    "tamil_name": "காதுச்செவி large pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 211
+  },
+  {
+    "sku": "SKU60276",
+    "item": "headphones family pack",
+    "tamil_name": "காதுச்செவி family pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 157
+  },
+  {
+    "sku": "SKU60277",
+    "item": "headphones organic",
+    "tamil_name": "காதுச்செவி organic",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 33
+  },
+  {
+    "sku": "SKU60278",
+    "item": "headphones premium",
+    "tamil_name": "காதுச்செவி premium",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 175
+  },
+  {
+    "sku": "SKU60279",
+    "item": "headphones economy",
+    "tamil_name": "காதுச்செவி economy",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 361
+  },
+  {
+    "sku": "SKU60280",
+    "item": "charger",
+    "tamil_name": "சார்ஜர்",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 297
+  },
+  {
+    "sku": "SKU60281",
+    "item": "charger small pack",
+    "tamil_name": "சார்ஜர் small pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 119
+  },
+  {
+    "sku": "SKU60282",
+    "item": "charger large pack",
+    "tamil_name": "சார்ஜர் large pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 26
+  },
+  {
+    "sku": "SKU60283",
+    "item": "charger family pack",
+    "tamil_name": "சார்ஜர் family pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 228
+  },
+  {
+    "sku": "SKU60284",
+    "item": "charger organic",
+    "tamil_name": "சார்ஜர் organic",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 176
+  },
+  {
+    "sku": "SKU60285",
+    "item": "charger premium",
+    "tamil_name": "சார்ஜர் premium",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 144
+  },
+  {
+    "sku": "SKU60286",
+    "item": "charger economy",
+    "tamil_name": "சார்ஜர் economy",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 200
+  },
+  {
+    "sku": "SKU60287",
+    "item": "usb cable",
+    "tamil_name": "USB கேபிள்",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 39
+  },
+  {
+    "sku": "SKU60288",
+    "item": "usb cable small pack",
+    "tamil_name": "USB கேபிள் small pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 153
+  },
+  {
+    "sku": "SKU60289",
+    "item": "usb cable large pack",
+    "tamil_name": "USB கேபிள் large pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 365
+  },
+  {
+    "sku": "SKU60290",
+    "item": "usb cable family pack",
+    "tamil_name": "USB கேபிள் family pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 304
+  },
+  {
+    "sku": "SKU60291",
+    "item": "usb cable organic",
+    "tamil_name": "USB கேபிள் organic",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 227
+  },
+  {
+    "sku": "SKU60292",
+    "item": "usb cable premium",
+    "tamil_name": "USB கேபிள் premium",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 24
+  },
+  {
+    "sku": "SKU60293",
+    "item": "usb cable economy",
+    "tamil_name": "USB கேபிள் economy",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 286
+  },
+  {
+    "sku": "SKU60294",
+    "item": "powerbank",
+    "tamil_name": "பவர் பேங்க்",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 213
+  },
+  {
+    "sku": "SKU60295",
+    "item": "powerbank small pack",
+    "tamil_name": "பவர் பேங்க் small pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 47
+  },
+  {
+    "sku": "SKU60296",
+    "item": "powerbank large pack",
+    "tamil_name": "பவர் பேங்க் large pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 351
+  },
+  {
+    "sku": "SKU60297",
+    "item": "powerbank family pack",
+    "tamil_name": "பவர் பேங்க் family pack",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 54
+  },
+  {
+    "sku": "SKU60298",
+    "item": "powerbank organic",
+    "tamil_name": "பவர் பேங்க் organic",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 243
+  },
+  {
+    "sku": "SKU60299",
+    "item": "powerbank premium",
+    "tamil_name": "பவர் பேங்க் premium",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 343
+  },
+  {
+    "sku": "SKU60300",
+    "item": "powerbank economy",
+    "tamil_name": "பவர் பேங்க் economy",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 205
+  },
+  {
+    "sku": "SKU60301",
+    "item": "notebook",
+    "tamil_name": "குறிப்பு புத்தகம்",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 48
+  },
+  {
+    "sku": "SKU60302",
+    "item": "notebook small pack",
+    "tamil_name": "குறிப்பு புத்தகம் small pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 116
+  },
+  {
+    "sku": "SKU60303",
+    "item": "notebook large pack",
+    "tamil_name": "குறிப்பு புத்தகம் large pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 294
+  },
+  {
+    "sku": "SKU60304",
+    "item": "notebook family pack",
+    "tamil_name": "குறிப்பு புத்தகம் family pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 274
+  },
+  {
+    "sku": "SKU60305",
+    "item": "notebook organic",
+    "tamil_name": "குறிப்பு புத்தகம் organic",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 344
+  },
+  {
+    "sku": "SKU60306",
+    "item": "notebook premium",
+    "tamil_name": "குறிப்பு புத்தகம் premium",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 23
+  },
+  {
+    "sku": "SKU60307",
+    "item": "notebook economy",
+    "tamil_name": "குறிப்பு புத்தகம் economy",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 322
+  },
+  {
+    "sku": "SKU60308",
+    "item": "pen",
+    "tamil_name": "பேனா",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 226
+  },
+  {
+    "sku": "SKU60309",
+    "item": "pen small pack",
+    "tamil_name": "பேனா small pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 288
+  },
+  {
+    "sku": "SKU60310",
+    "item": "pen large pack",
+    "tamil_name": "பேனா large pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 238
+  },
+  {
+    "sku": "SKU60311",
+    "item": "pen family pack",
+    "tamil_name": "பேனா family pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 132
+  },
+  {
+    "sku": "SKU60312",
+    "item": "pen organic",
+    "tamil_name": "பேனா organic",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 108
+  },
+  {
+    "sku": "SKU60313",
+    "item": "pen premium",
+    "tamil_name": "பேனா premium",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 340
+  },
+  {
+    "sku": "SKU60314",
+    "item": "pen economy",
+    "tamil_name": "பேனா economy",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 372
+  },
+  {
+    "sku": "SKU60315",
+    "item": "pencil",
+    "tamil_name": "பென்சில்",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 59
+  },
+  {
+    "sku": "SKU60316",
+    "item": "pencil small pack",
+    "tamil_name": "பென்சில் small pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 26
+  },
+  {
+    "sku": "SKU60317",
+    "item": "pencil large pack",
+    "tamil_name": "பென்சில் large pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 347
+  },
+  {
+    "sku": "SKU60318",
+    "item": "pencil family pack",
+    "tamil_name": "பென்சில் family pack",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 23
+  },
+  {
+    "sku": "SKU60319",
+    "item": "pencil organic",
+    "tamil_name": "பென்சில் organic",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 297
+  },
+  {
+    "sku": "SKU60320",
+    "item": "pencil premium",
+    "tamil_name": "பென்சில் premium",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 22
+  },
+  {
+    "sku": "SKU60321",
+    "item": "pencil economy",
+    "tamil_name": "பென்சில் economy",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 277
+  },
+  {
+    "sku": "SKU60322",
+    "item": "watermelon brand0",
+    "tamil_name": "தர்பூசணி brand0",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 250
+  },
+  {
+    "sku": "SKU60323",
+    "item": "biscuits brand1",
+    "tamil_name": "பிஸ்கட் brand1",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 256
+  },
+  {
+    "sku": "SKU60324",
+    "item": "charger brand2",
+    "tamil_name": "சார்ஜர் brand2",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 318
+  },
+  {
+    "sku": "SKU60325",
+    "item": "pen brand3",
+    "tamil_name": "பேனா brand3",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 301
+  },
+  {
+    "sku": "SKU60326",
+    "item": "sugar brand4",
+    "tamil_name": "சர்க்கரை brand4",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 213
+  },
+  {
+    "sku": "SKU60327",
+    "item": "onion brand5",
+    "tamil_name": "வெங்காயம் brand5",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 287
+  },
+  {
+    "sku": "SKU60328",
+    "item": "headphones brand6",
+    "tamil_name": "காதுச்செவி brand6",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 176
+  },
+  {
+    "sku": "SKU60329",
+    "item": "mango brand7",
+    "tamil_name": "மாம்பழம் brand7",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 321
+  },
+  {
+    "sku": "SKU60330",
+    "item": "wheat brand8",
+    "tamil_name": "கோதுமை brand8",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 128
+  },
+  {
+    "sku": "SKU60331",
+    "item": "kiwi brand9",
+    "tamil_name": "கிவி brand9",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 325
+  },
+  {
+    "sku": "SKU60332",
+    "item": "headphones brand10",
+    "tamil_name": "காதுச்செவி brand10",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 197
+  },
+  {
+    "sku": "SKU60333",
+    "item": "dates brand11",
+    "tamil_name": "பேரீச்சம் பழம் brand11",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 214
+  },
+  {
+    "sku": "SKU60334",
+    "item": "charger brand12",
+    "tamil_name": "சார்ஜர் brand12",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 245
+  },
+  {
+    "sku": "SKU60335",
+    "item": "beetroot brand13",
+    "tamil_name": "பீட்ரூட் brand13",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 342
+  },
+  {
+    "sku": "SKU60336",
+    "item": "usb cable brand14",
+    "tamil_name": "USB கேபிள் brand14",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 130
+  },
+  {
+    "sku": "SKU60337",
+    "item": "tea brand15",
+    "tamil_name": "தேநீர் brand15",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 120
+  },
+  {
+    "sku": "SKU60338",
+    "item": "beetroot brand16",
+    "tamil_name": "பீட்ரூட் brand16",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 255
+  },
+  {
+    "sku": "SKU60339",
+    "item": "notebook brand17",
+    "tamil_name": "குறிப்பு புத்தகம் brand17",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 156
+  },
+  {
+    "sku": "SKU60340",
+    "item": "paneer brand18",
+    "tamil_name": "பனீர் brand18",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 88
+  },
+  {
+    "sku": "SKU60341",
+    "item": "brinjal brand19",
+    "tamil_name": "கத்தரிக்காய் brand19",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 167
+  },
+  {
+    "sku": "SKU60342",
+    "item": "pomegranate brand20",
+    "tamil_name": "மாதுளை brand20",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 319
+  },
+  {
+    "sku": "SKU60343",
+    "item": "pineapple brand21",
+    "tamil_name": "அன்னாசி brand21",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 206
+  },
+  {
+    "sku": "SKU60344",
+    "item": "rice brand22",
+    "tamil_name": "அரிசி brand22",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 165
+  },
+  {
+    "sku": "SKU60345",
+    "item": "guava brand23",
+    "tamil_name": "கொய்யா brand23",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 79
+  },
+  {
+    "sku": "SKU60346",
+    "item": "dates brand24",
+    "tamil_name": "பேரீச்சம் பழம் brand24",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 332
+  },
+  {
+    "sku": "SKU60347",
+    "item": "headphones brand25",
+    "tamil_name": "காதுச்செவி brand25",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 303
+  },
+  {
+    "sku": "SKU60348",
+    "item": "mango brand26",
+    "tamil_name": "மாம்பழம் brand26",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 279
+  },
+  {
+    "sku": "SKU60349",
+    "item": "dates brand27",
+    "tamil_name": "பேரீச்சம் பழம் brand27",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 275
+  },
+  {
+    "sku": "SKU60350",
+    "item": "salt brand28",
+    "tamil_name": "உப்பு brand28",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 347
+  },
+  {
+    "sku": "SKU60351",
+    "item": "brinjal brand29",
+    "tamil_name": "கத்தரிக்காய் brand29",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 117
+  },
+  {
+    "sku": "SKU60352",
+    "item": "headphones brand30",
+    "tamil_name": "காதுச்செவி brand30",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 103
+  },
+  {
+    "sku": "SKU60353",
+    "item": "peach brand31",
+    "tamil_name": "பீச் brand31",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 123
+  },
+  {
+    "sku": "SKU60354",
+    "item": "brinjal brand32",
+    "tamil_name": "கத்தரிக்காய் brand32",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 287
+  },
+  {
+    "sku": "SKU60355",
+    "item": "fig brand33",
+    "tamil_name": "அத்திப்பழம் brand33",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 302
+  },
+  {
+    "sku": "SKU60356",
+    "item": "headphones brand34",
+    "tamil_name": "காதுச்செவி brand34",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 195
+  },
+  {
+    "sku": "SKU60357",
+    "item": "orange brand35",
+    "tamil_name": "ஆரஞ்சு brand35",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 54
+  },
+  {
+    "sku": "SKU60358",
+    "item": "pen brand36",
+    "tamil_name": "பேனா brand36",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 87
+  },
+  {
+    "sku": "SKU60359",
+    "item": "apple brand37",
+    "tamil_name": "ஆப்பிள் brand37",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 209
+  },
+  {
+    "sku": "SKU60360",
+    "item": "biscuits brand38",
+    "tamil_name": "பிஸ்கட் brand38",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 254
+  },
+  {
+    "sku": "SKU60361",
+    "item": "butter brand39",
+    "tamil_name": "வெண்ணெய் brand39",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 320
+  },
+  {
+    "sku": "SKU60362",
+    "item": "beetroot brand40",
+    "tamil_name": "பீட்ரூட் brand40",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 33
+  },
+  {
+    "sku": "SKU60363",
+    "item": "beetroot brand41",
+    "tamil_name": "பீட்ரூட் brand41",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 66
+  },
+  {
+    "sku": "SKU60364",
+    "item": "ghee brand42",
+    "tamil_name": "நெய் brand42",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 139
+  },
+  {
+    "sku": "SKU60365",
+    "item": "notebook brand43",
+    "tamil_name": "குறிப்பு புத்தகம் brand43",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 106
+  },
+  {
+    "sku": "SKU60366",
+    "item": "apple brand44",
+    "tamil_name": "ஆப்பிள் brand44",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 295
+  },
+  {
+    "sku": "SKU60367",
+    "item": "beans brand45",
+    "tamil_name": "பீன்ஸ் brand45",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 282
+  },
+  {
+    "sku": "SKU60368",
+    "item": "rice brand46",
+    "tamil_name": "அரிசி brand46",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 137
+  },
+  {
+    "sku": "SKU60369",
+    "item": "beans brand47",
+    "tamil_name": "பீன்ஸ் brand47",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 320
+  },
+  {
+    "sku": "SKU60370",
+    "item": "grapes brand48",
+    "tamil_name": "திராட்சை brand48",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 97
+  },
+  {
+    "sku": "SKU60371",
+    "item": "notebook brand49",
+    "tamil_name": "குறிப்பு புத்தகம் brand49",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 279
+  },
+  {
+    "sku": "SKU60372",
+    "item": "pencil brand50",
+    "tamil_name": "பென்சில் brand50",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 204
+  },
+  {
+    "sku": "SKU60373",
+    "item": "salt brand51",
+    "tamil_name": "உப்பு brand51",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 180
+  },
+  {
+    "sku": "SKU60374",
+    "item": "pineapple brand52",
+    "tamil_name": "அன்னாசி brand52",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 198
+  },
+  {
+    "sku": "SKU60375",
+    "item": "butter brand53",
+    "tamil_name": "வெண்ணெய் brand53",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 333
+  },
+  {
+    "sku": "SKU60376",
+    "item": "pineapple brand54",
+    "tamil_name": "அன்னாசி brand54",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 246
+  },
+  {
+    "sku": "SKU60377",
+    "item": "rice brand55",
+    "tamil_name": "அரிசி brand55",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 162
+  },
+  {
+    "sku": "SKU60378",
+    "item": "dates brand56",
+    "tamil_name": "பேரீச்சம் பழம் brand56",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 129
+  },
+  {
+    "sku": "SKU60379",
+    "item": "biscuits brand57",
+    "tamil_name": "பிஸ்கட் brand57",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 287
+  },
+  {
+    "sku": "SKU60380",
+    "item": "charger brand58",
+    "tamil_name": "சார்ஜர் brand58",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 54
+  },
+  {
+    "sku": "SKU60381",
+    "item": "pencil brand59",
+    "tamil_name": "பென்சில் brand59",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 339
+  },
+  {
+    "sku": "SKU60382",
+    "item": "strawberry brand60",
+    "tamil_name": "ஸ்ட்ராபெரி brand60",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 157
+  },
+  {
+    "sku": "SKU60383",
+    "item": "banana brand61",
+    "tamil_name": "வாழைப்பழம் brand61",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 279
+  },
+  {
+    "sku": "SKU60384",
+    "item": "kiwi brand62",
+    "tamil_name": "கிவி brand62",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 164
+  },
+  {
+    "sku": "SKU60385",
+    "item": "sugar brand63",
+    "tamil_name": "சர்க்கரை brand63",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 62
+  },
+  {
+    "sku": "SKU60386",
+    "item": "beetroot brand64",
+    "tamil_name": "பீட்ரூட் brand64",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 242
+  },
+  {
+    "sku": "SKU60387",
+    "item": "biscuits brand65",
+    "tamil_name": "பிஸ்கட் brand65",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 45
+  },
+  {
+    "sku": "SKU60388",
+    "item": "oil brand66",
+    "tamil_name": "எண்ணெய் brand66",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 181
+  },
+  {
+    "sku": "SKU60389",
+    "item": "onion brand67",
+    "tamil_name": "வெங்காயம் brand67",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 174
+  },
+  {
+    "sku": "SKU60390",
+    "item": "banana brand68",
+    "tamil_name": "வாழைப்பழம் brand68",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 148
+  },
+  {
+    "sku": "SKU60391",
+    "item": "paneer brand69",
+    "tamil_name": "பனீர் brand69",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 67
+  },
+  {
+    "sku": "SKU60392",
+    "item": "grapes brand70",
+    "tamil_name": "திராட்சை brand70",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 319
+  },
+  {
+    "sku": "SKU60393",
+    "item": "coffee brand71",
+    "tamil_name": "காபி brand71",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 308
+  },
+  {
+    "sku": "SKU60394",
+    "item": "mango brand72",
+    "tamil_name": "மாம்பழம் brand72",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 210
+  },
+  {
+    "sku": "SKU60395",
+    "item": "butter brand73",
+    "tamil_name": "வெண்ணெய் brand73",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 36
+  },
+  {
+    "sku": "SKU60396",
+    "item": "watermelon brand74",
+    "tamil_name": "தர்பூசணி brand74",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 148
+  },
+  {
+    "sku": "SKU60397",
+    "item": "watermelon brand75",
+    "tamil_name": "தர்பூசணி brand75",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 59
+  },
+  {
+    "sku": "SKU60398",
+    "item": "papaya brand76",
+    "tamil_name": "பப்பாளி brand76",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 150
+  },
+  {
+    "sku": "SKU60399",
+    "item": "cabbage brand77",
+    "tamil_name": "முட்டைகோசு brand77",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 312
+  },
+  {
+    "sku": "SKU60400",
+    "item": "guava brand78",
+    "tamil_name": "கொய்யா brand78",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 196
+  },
+  {
+    "sku": "SKU60401",
+    "item": "grapes brand79",
+    "tamil_name": "திராட்சை brand79",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 263
+  },
+  {
+    "sku": "SKU60402",
+    "item": "brinjal brand80",
+    "tamil_name": "கத்தரிக்காய் brand80",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 123
+  },
+  {
+    "sku": "SKU60403",
+    "item": "butter brand81",
+    "tamil_name": "வெண்ணெய் brand81",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 176
+  },
+  {
+    "sku": "SKU60404",
+    "item": "grapes brand82",
+    "tamil_name": "திராட்சை brand82",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 275
+  },
+  {
+    "sku": "SKU60405",
+    "item": "carrot brand83",
+    "tamil_name": "காரட் brand83",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 315
+  },
+  {
+    "sku": "SKU60406",
+    "item": "chips brand84",
+    "tamil_name": "சிப்ஸ் brand84",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 297
+  },
+  {
+    "sku": "SKU60407",
+    "item": "apple brand85",
+    "tamil_name": "ஆப்பிள் brand85",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 325
+  },
+  {
+    "sku": "SKU60408",
+    "item": "notebook brand86",
+    "tamil_name": "குறிப்பு புத்தகம் brand86",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 92
+  },
+  {
+    "sku": "SKU60409",
+    "item": "brinjal brand87",
+    "tamil_name": "கத்தரிக்காய் brand87",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 347
+  },
+  {
+    "sku": "SKU60410",
+    "item": "grapes brand88",
+    "tamil_name": "திராட்சை brand88",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 107
+  },
+  {
+    "sku": "SKU60411",
+    "item": "dates brand89",
+    "tamil_name": "பேரீச்சம் பழம் brand89",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 259
+  },
+  {
+    "sku": "SKU60412",
+    "item": "cabbage brand90",
+    "tamil_name": "முட்டைகோசு brand90",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 226
+  },
+  {
+    "sku": "SKU60413",
+    "item": "butter brand91",
+    "tamil_name": "வெண்ணெய் brand91",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 241
+  },
+  {
+    "sku": "SKU60414",
+    "item": "potato brand92",
+    "tamil_name": "உருளைக்கிழங்கு brand92",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 266
+  },
+  {
+    "sku": "SKU60415",
+    "item": "pear brand93",
+    "tamil_name": "பேரிக்காய் brand93",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 226
+  },
+  {
+    "sku": "SKU60416",
+    "item": "paneer brand94",
+    "tamil_name": "பனீர் brand94",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 107
+  },
+  {
+    "sku": "SKU60417",
+    "item": "mango brand95",
+    "tamil_name": "மாம்பழம் brand95",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 117
+  },
+  {
+    "sku": "SKU60418",
+    "item": "cabbage brand96",
+    "tamil_name": "முட்டைகோசு brand96",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 226
+  },
+  {
+    "sku": "SKU60419",
+    "item": "oil brand97",
+    "tamil_name": "எண்ணெய் brand97",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 294
+  },
+  {
+    "sku": "SKU60420",
+    "item": "fig brand98",
+    "tamil_name": "அத்திப்பழம் brand98",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 126
+  },
+  {
+    "sku": "SKU60421",
+    "item": "biscuits brand99",
+    "tamil_name": "பிஸ்கட் brand99",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 188
+  },
+  {
+    "sku": "SKU60422",
+    "item": "pear brand100",
+    "tamil_name": "பேரிக்காய் brand100",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 150
+  },
+  {
+    "sku": "SKU60423",
+    "item": "grapes brand101",
+    "tamil_name": "திராட்சை brand101",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 106
+  },
+  {
+    "sku": "SKU60424",
+    "item": "biscuits brand102",
+    "tamil_name": "பிஸ்கட் brand102",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 181
+  },
+  {
+    "sku": "SKU60425",
+    "item": "potato brand103",
+    "tamil_name": "உருளைக்கிழங்கு brand103",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 293
+  },
+  {
+    "sku": "SKU60426",
+    "item": "salt brand104",
+    "tamil_name": "உப்பு brand104",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 215
+  },
+  {
+    "sku": "SKU60427",
+    "item": "tea brand105",
+    "tamil_name": "தேநீர் brand105",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 71
+  },
+  {
+    "sku": "SKU60428",
+    "item": "mango brand106",
+    "tamil_name": "மாம்பழம் brand106",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 139
+  },
+  {
+    "sku": "SKU60429",
+    "item": "guava brand107",
+    "tamil_name": "கொய்யா brand107",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 136
+  },
+  {
+    "sku": "SKU60430",
+    "item": "cauliflower brand108",
+    "tamil_name": "காலிஃபிளவர் brand108",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 280
+  },
+  {
+    "sku": "SKU60431",
+    "item": "orange brand109",
+    "tamil_name": "ஆரஞ்சு brand109",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 221
+  },
+  {
+    "sku": "SKU60432",
+    "item": "brinjal brand110",
+    "tamil_name": "கத்தரிக்காய் brand110",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 300
+  },
+  {
+    "sku": "SKU60433",
+    "item": "banana brand111",
+    "tamil_name": "வாழைப்பழம் brand111",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 236
+  },
+  {
+    "sku": "SKU60434",
+    "item": "brinjal brand112",
+    "tamil_name": "கத்தரிக்காய் brand112",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 122
+  },
+  {
+    "sku": "SKU60435",
+    "item": "banana brand113",
+    "tamil_name": "வாழைப்பழம் brand113",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 209
+  },
+  {
+    "sku": "SKU60436",
+    "item": "potato brand114",
+    "tamil_name": "உருளைக்கிழங்கு brand114",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 274
+  },
+  {
+    "sku": "SKU60437",
+    "item": "oil brand115",
+    "tamil_name": "எண்ணெய் brand115",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 72
+  },
+  {
+    "sku": "SKU60438",
+    "item": "butter brand116",
+    "tamil_name": "வெண்ணெய் brand116",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 159
+  },
+  {
+    "sku": "SKU60439",
+    "item": "brinjal brand117",
+    "tamil_name": "கத்தரிக்காய் brand117",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 42
+  },
+  {
+    "sku": "SKU60440",
+    "item": "pomegranate brand118",
+    "tamil_name": "மாதுளை brand118",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 226
+  },
+  {
+    "sku": "SKU60441",
+    "item": "rice brand119",
+    "tamil_name": "அரிசி brand119",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 334
+  },
+  {
+    "sku": "SKU60442",
+    "item": "onion brand120",
+    "tamil_name": "வெங்காயம் brand120",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 80
+  },
+  {
+    "sku": "SKU60443",
+    "item": "carrot brand121",
+    "tamil_name": "காரட் brand121",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 220
+  },
+  {
+    "sku": "SKU60444",
+    "item": "biscuits brand122",
+    "tamil_name": "பிஸ்கட் brand122",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 137
+  },
+  {
+    "sku": "SKU60445",
+    "item": "pomegranate brand123",
+    "tamil_name": "மாதுளை brand123",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 184
+  },
+  {
+    "sku": "SKU60446",
+    "item": "chips brand124",
+    "tamil_name": "சிப்ஸ் brand124",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 111
+  },
+  {
+    "sku": "SKU60447",
+    "item": "fig brand125",
+    "tamil_name": "அத்திப்பழம் brand125",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 306
+  },
+  {
+    "sku": "SKU60448",
+    "item": "charger brand126",
+    "tamil_name": "சார்ஜர் brand126",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 289
+  },
+  {
+    "sku": "SKU60449",
+    "item": "headphones brand127",
+    "tamil_name": "காதுச்செவி brand127",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 309
+  },
+  {
+    "sku": "SKU60450",
+    "item": "coffee brand128",
+    "tamil_name": "காபி brand128",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 71
+  },
+  {
+    "sku": "SKU60451",
+    "item": "banana brand129",
+    "tamil_name": "வாழைப்பழம் brand129",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 131
+  },
+  {
+    "sku": "SKU60452",
+    "item": "pen brand130",
+    "tamil_name": "பேனா brand130",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 162
+  },
+  {
+    "sku": "SKU60453",
+    "item": "pomegranate brand131",
+    "tamil_name": "மாதுளை brand131",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 149
+  },
+  {
+    "sku": "SKU60454",
+    "item": "biscuits brand132",
+    "tamil_name": "பிஸ்கட் brand132",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 88
+  },
+  {
+    "sku": "SKU60455",
+    "item": "carrot brand133",
+    "tamil_name": "காரட் brand133",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 67
+  },
+  {
+    "sku": "SKU60456",
+    "item": "powerbank brand134",
+    "tamil_name": "பவர் பேங்க் brand134",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 178
+  },
+  {
+    "sku": "SKU60457",
+    "item": "paneer brand135",
+    "tamil_name": "பனீர் brand135",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 175
+  },
+  {
+    "sku": "SKU60458",
+    "item": "pencil brand136",
+    "tamil_name": "பென்சில் brand136",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 133
+  },
+  {
+    "sku": "SKU60459",
+    "item": "milk brand137",
+    "tamil_name": "பால் brand137",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 345
+  },
+  {
+    "sku": "SKU60460",
+    "item": "headphones brand138",
+    "tamil_name": "காதுச்செவி brand138",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 339
+  },
+  {
+    "sku": "SKU60461",
+    "item": "pencil brand139",
+    "tamil_name": "பென்சில் brand139",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 129
+  },
+  {
+    "sku": "SKU60462",
+    "item": "sugar brand140",
+    "tamil_name": "சர்க்கரை brand140",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 148
+  },
+  {
+    "sku": "SKU60463",
+    "item": "usb cable brand141",
+    "tamil_name": "USB கேபிள் brand141",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 155
+  },
+  {
+    "sku": "SKU60464",
+    "item": "beetroot brand142",
+    "tamil_name": "பீட்ரூட் brand142",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 43
+  },
+  {
+    "sku": "SKU60465",
+    "item": "beans brand143",
+    "tamil_name": "பீன்ஸ் brand143",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 51
+  },
+  {
+    "sku": "SKU60466",
+    "item": "papaya brand144",
+    "tamil_name": "பப்பாளி brand144",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 337
+  },
+  {
+    "sku": "SKU60467",
+    "item": "salt brand145",
+    "tamil_name": "உப்பு brand145",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 46
+  },
+  {
+    "sku": "SKU60468",
+    "item": "charger brand146",
+    "tamil_name": "சார்ஜர் brand146",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 266
+  },
+  {
+    "sku": "SKU60469",
+    "item": "milk brand147",
+    "tamil_name": "பால் brand147",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 290
+  },
+  {
+    "sku": "SKU60470",
+    "item": "chips brand148",
+    "tamil_name": "சிப்ஸ் brand148",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 94
+  },
+  {
+    "sku": "SKU60471",
+    "item": "coffee brand149",
+    "tamil_name": "காபி brand149",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 272
+  },
+  {
+    "sku": "SKU60472",
+    "item": "carrot brand150",
+    "tamil_name": "காரட் brand150",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 268
+  },
+  {
+    "sku": "SKU60473",
+    "item": "headphones brand151",
+    "tamil_name": "காதுச்செவி brand151",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 296
+  },
+  {
+    "sku": "SKU60474",
+    "item": "dates brand152",
+    "tamil_name": "பேரீச்சம் பழம் brand152",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 320
+  },
+  {
+    "sku": "SKU60475",
+    "item": "banana brand153",
+    "tamil_name": "வாழைப்பழம் brand153",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 325
+  },
+  {
+    "sku": "SKU60476",
+    "item": "charger brand154",
+    "tamil_name": "சார்ஜர் brand154",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 65
+  },
+  {
+    "sku": "SKU60477",
+    "item": "potato brand155",
+    "tamil_name": "உருளைக்கிழங்கு brand155",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 299
+  },
+  {
+    "sku": "SKU60478",
+    "item": "notebook brand156",
+    "tamil_name": "குறிப்பு புத்தகம் brand156",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 169
+  },
+  {
+    "sku": "SKU60479",
+    "item": "peach brand157",
+    "tamil_name": "பீச் brand157",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 120
+  },
+  {
+    "sku": "SKU60480",
+    "item": "butter brand158",
+    "tamil_name": "வெண்ணெய் brand158",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 175
+  },
+  {
+    "sku": "SKU60481",
+    "item": "banana brand159",
+    "tamil_name": "வாழைப்பழம் brand159",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 165
+  },
+  {
+    "sku": "SKU60482",
+    "item": "pineapple brand160",
+    "tamil_name": "அன்னாசி brand160",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 171
+  },
+  {
+    "sku": "SKU60483",
+    "item": "sugar brand161",
+    "tamil_name": "சர்க்கரை brand161",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 123
+  },
+  {
+    "sku": "SKU60484",
+    "item": "banana brand162",
+    "tamil_name": "வாழைப்பழம் brand162",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 46
+  },
+  {
+    "sku": "SKU60485",
+    "item": "curd brand163",
+    "tamil_name": "தயிர் brand163",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 158
+  },
+  {
+    "sku": "SKU60486",
+    "item": "headphones brand164",
+    "tamil_name": "காதுச்செவி brand164",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 135
+  },
+  {
+    "sku": "SKU60487",
+    "item": "rice brand165",
+    "tamil_name": "அரிசி brand165",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 326
+  },
+  {
+    "sku": "SKU60488",
+    "item": "headphones brand166",
+    "tamil_name": "காதுச்செவி brand166",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 234
+  },
+  {
+    "sku": "SKU60489",
+    "item": "fig brand167",
+    "tamil_name": "அத்திப்பழம் brand167",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 248
+  },
+  {
+    "sku": "SKU60490",
+    "item": "pen brand168",
+    "tamil_name": "பேனா brand168",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 43
+  },
+  {
+    "sku": "SKU60491",
+    "item": "banana brand169",
+    "tamil_name": "வாழைப்பழம் brand169",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 329
+  },
+  {
+    "sku": "SKU60492",
+    "item": "pineapple brand170",
+    "tamil_name": "அன்னாசி brand170",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 46
+  },
+  {
+    "sku": "SKU60493",
+    "item": "peach brand171",
+    "tamil_name": "பீச் brand171",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 320
+  },
+  {
+    "sku": "SKU60494",
+    "item": "chips brand172",
+    "tamil_name": "சிப்ஸ் brand172",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 337
+  },
+  {
+    "sku": "SKU60495",
+    "item": "peach brand173",
+    "tamil_name": "பீச் brand173",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 270
+  },
+  {
+    "sku": "SKU60496",
+    "item": "rice brand174",
+    "tamil_name": "அரிசி brand174",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 40
+  },
+  {
+    "sku": "SKU60497",
+    "item": "papaya brand175",
+    "tamil_name": "பப்பாளி brand175",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 207
+  },
+  {
+    "sku": "SKU60498",
+    "item": "dates brand176",
+    "tamil_name": "பேரீச்சம் பழம் brand176",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 306
+  },
+  {
+    "sku": "SKU60499",
+    "item": "grapes brand177",
+    "tamil_name": "திராட்சை brand177",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 175
+  },
+  {
+    "sku": "SKU60500",
+    "item": "milk brand178",
+    "tamil_name": "பால் brand178",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 231
+  },
+  {
+    "sku": "SKU60501",
+    "item": "papaya brand179",
+    "tamil_name": "பப்பாளி brand179",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 223
+  },
+  {
+    "sku": "SKU60502",
+    "item": "papaya brand180",
+    "tamil_name": "பப்பாளி brand180",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 233
+  },
+  {
+    "sku": "SKU60503",
+    "item": "onion brand181",
+    "tamil_name": "வெங்காயம் brand181",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 78
+  },
+  {
+    "sku": "SKU60504",
+    "item": "dates brand182",
+    "tamil_name": "பேரீச்சம் பழம் brand182",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 83
+  },
+  {
+    "sku": "SKU60505",
+    "item": "sugar brand183",
+    "tamil_name": "சர்க்கரை brand183",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 258
+  },
+  {
+    "sku": "SKU60506",
+    "item": "headphones brand184",
+    "tamil_name": "காதுச்செவி brand184",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 51
+  },
+  {
+    "sku": "SKU60507",
+    "item": "beans brand185",
+    "tamil_name": "பீன்ஸ் brand185",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 346
+  },
+  {
+    "sku": "SKU60508",
+    "item": "dates brand186",
+    "tamil_name": "பேரீச்சம் பழம் brand186",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 229
+  },
+  {
+    "sku": "SKU60509",
+    "item": "pencil brand187",
+    "tamil_name": "பென்சில் brand187",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 280
+  },
+  {
+    "sku": "SKU60510",
+    "item": "potato brand188",
+    "tamil_name": "உருளைக்கிழங்கு brand188",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 195
+  },
+  {
+    "sku": "SKU60511",
+    "item": "grapes brand189",
+    "tamil_name": "திராட்சை brand189",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 50
+  },
+  {
+    "sku": "SKU60512",
+    "item": "milk brand190",
+    "tamil_name": "பால் brand190",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 31
+  },
+  {
+    "sku": "SKU60513",
+    "item": "peach brand191",
+    "tamil_name": "பீச் brand191",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 137
+  },
+  {
+    "sku": "SKU60514",
+    "item": "tea brand192",
+    "tamil_name": "தேநீர் brand192",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 208
+  },
+  {
+    "sku": "SKU60515",
+    "item": "guava brand193",
+    "tamil_name": "கொய்யா brand193",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 45
+  },
+  {
+    "sku": "SKU60516",
+    "item": "headphones brand194",
+    "tamil_name": "காதுச்செவி brand194",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 89
+  },
+  {
+    "sku": "SKU60517",
+    "item": "grapes brand195",
+    "tamil_name": "திராட்சை brand195",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 140
+  },
+  {
+    "sku": "SKU60518",
+    "item": "papaya brand196",
+    "tamil_name": "பப்பாளி brand196",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 116
+  },
+  {
+    "sku": "SKU60519",
+    "item": "chips brand197",
+    "tamil_name": "சிப்ஸ் brand197",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 131
+  },
+  {
+    "sku": "SKU60520",
+    "item": "notebook brand198",
+    "tamil_name": "குறிப்பு புத்தகம் brand198",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 216
+  },
+  {
+    "sku": "SKU60521",
+    "item": "milk brand199",
+    "tamil_name": "பால் brand199",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 110
+  },
+  {
+    "sku": "SKU60522",
+    "item": "oil brand200",
+    "tamil_name": "எண்ணெய் brand200",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 182
+  },
+  {
+    "sku": "SKU60523",
+    "item": "papaya brand201",
+    "tamil_name": "பப்பாளி brand201",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 300
+  },
+  {
+    "sku": "SKU60524",
+    "item": "usb cable brand202",
+    "tamil_name": "USB கேபிள் brand202",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 125
+  },
+  {
+    "sku": "SKU60525",
+    "item": "apple brand203",
+    "tamil_name": "ஆப்பிள் brand203",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 170
+  },
+  {
+    "sku": "SKU60526",
+    "item": "onion brand204",
+    "tamil_name": "வெங்காயம் brand204",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 117
+  },
+  {
+    "sku": "SKU60527",
+    "item": "brinjal brand205",
+    "tamil_name": "கத்தரிக்காய் brand205",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 46
+  },
+  {
+    "sku": "SKU60528",
+    "item": "apple brand206",
+    "tamil_name": "ஆப்பிள் brand206",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 54
+  },
+  {
+    "sku": "SKU60529",
+    "item": "cabbage brand207",
+    "tamil_name": "முட்டைகோசு brand207",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 145
+  },
+  {
+    "sku": "SKU60530",
+    "item": "beetroot brand208",
+    "tamil_name": "பீட்ரூட் brand208",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 237
+  },
+  {
+    "sku": "SKU60531",
+    "item": "apple brand209",
+    "tamil_name": "ஆப்பிள் brand209",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 253
+  },
+  {
+    "sku": "SKU60532",
+    "item": "pencil brand210",
+    "tamil_name": "பென்சில் brand210",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 291
+  },
+  {
+    "sku": "SKU60533",
+    "item": "chips brand211",
+    "tamil_name": "சிப்ஸ் brand211",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 245
+  },
+  {
+    "sku": "SKU60534",
+    "item": "cabbage brand212",
+    "tamil_name": "முட்டைகோசு brand212",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 289
+  },
+  {
+    "sku": "SKU60535",
+    "item": "usb cable brand213",
+    "tamil_name": "USB கேபிள் brand213",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 267
+  },
+  {
+    "sku": "SKU60536",
+    "item": "orange brand214",
+    "tamil_name": "ஆரஞ்சு brand214",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 195
+  },
+  {
+    "sku": "SKU60537",
+    "item": "powerbank brand215",
+    "tamil_name": "பவர் பேங்க் brand215",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 196
+  },
+  {
+    "sku": "SKU60538",
+    "item": "cabbage brand216",
+    "tamil_name": "முட்டைகோசு brand216",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 258
+  },
+  {
+    "sku": "SKU60539",
+    "item": "pineapple brand217",
+    "tamil_name": "அன்னாசி brand217",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 207
+  },
+  {
+    "sku": "SKU60540",
+    "item": "oil brand218",
+    "tamil_name": "எண்ணெய் brand218",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 286
+  },
+  {
+    "sku": "SKU60541",
+    "item": "orange brand219",
+    "tamil_name": "ஆரஞ்சு brand219",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 274
+  },
+  {
+    "sku": "SKU60542",
+    "item": "biscuits brand220",
+    "tamil_name": "பிஸ்கட் brand220",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 331
+  },
+  {
+    "sku": "SKU60543",
+    "item": "coffee brand221",
+    "tamil_name": "காபி brand221",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 241
+  },
+  {
+    "sku": "SKU60544",
+    "item": "beetroot brand222",
+    "tamil_name": "பீட்ரூட் brand222",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 335
+  },
+  {
+    "sku": "SKU60545",
+    "item": "fig brand223",
+    "tamil_name": "அத்திப்பழம் brand223",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 88
+  },
+  {
+    "sku": "SKU60546",
+    "item": "tomato brand224",
+    "tamil_name": "தக்காளி brand224",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 227
+  },
+  {
+    "sku": "SKU60547",
+    "item": "pencil brand225",
+    "tamil_name": "பென்சில் brand225",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 293
+  },
+  {
+    "sku": "SKU60548",
+    "item": "pen brand226",
+    "tamil_name": "பேனா brand226",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 129
+  },
+  {
+    "sku": "SKU60549",
+    "item": "rice brand227",
+    "tamil_name": "அரிசி brand227",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 121
+  },
+  {
+    "sku": "SKU60550",
+    "item": "beetroot brand228",
+    "tamil_name": "பீட்ரூட் brand228",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 93
+  },
+  {
+    "sku": "SKU60551",
+    "item": "fig brand229",
+    "tamil_name": "அத்திப்பழம் brand229",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 302
+  },
+  {
+    "sku": "SKU60552",
+    "item": "apple brand230",
+    "tamil_name": "ஆப்பிள் brand230",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 175
+  },
+  {
+    "sku": "SKU60553",
+    "item": "paneer brand231",
+    "tamil_name": "பனீர் brand231",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 72
+  },
+  {
+    "sku": "SKU60554",
+    "item": "orange brand232",
+    "tamil_name": "ஆரஞ்சு brand232",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 139
+  },
+  {
+    "sku": "SKU60555",
+    "item": "brinjal brand233",
+    "tamil_name": "கத்தரிக்காய் brand233",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 107
+  },
+  {
+    "sku": "SKU60556",
+    "item": "powerbank brand234",
+    "tamil_name": "பவர் பேங்க் brand234",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 197
+  },
+  {
+    "sku": "SKU60557",
+    "item": "strawberry brand235",
+    "tamil_name": "ஸ்ட்ராபெரி brand235",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 67
+  },
+  {
+    "sku": "SKU60558",
+    "item": "potato brand236",
+    "tamil_name": "உருளைக்கிழங்கு brand236",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 138
+  },
+  {
+    "sku": "SKU60559",
+    "item": "apple brand237",
+    "tamil_name": "ஆப்பிள் brand237",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 241
+  },
+  {
+    "sku": "SKU60560",
+    "item": "paneer brand238",
+    "tamil_name": "பனீர் brand238",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 64
+  },
+  {
+    "sku": "SKU60561",
+    "item": "chips brand239",
+    "tamil_name": "சிப்ஸ் brand239",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 78
+  },
+  {
+    "sku": "SKU60562",
+    "item": "wheat brand240",
+    "tamil_name": "கோதுமை brand240",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 218
+  },
+  {
+    "sku": "SKU60563",
+    "item": "salt brand241",
+    "tamil_name": "உப்பு brand241",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 177
+  },
+  {
+    "sku": "SKU60564",
+    "item": "pencil brand242",
+    "tamil_name": "பென்சில் brand242",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 99
+  },
+  {
+    "sku": "SKU60565",
+    "item": "strawberry brand243",
+    "tamil_name": "ஸ்ட்ராபெரி brand243",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 349
+  },
+  {
+    "sku": "SKU60566",
+    "item": "curd brand244",
+    "tamil_name": "தயிர் brand244",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 217
+  },
+  {
+    "sku": "SKU60567",
+    "item": "kiwi brand245",
+    "tamil_name": "கிவி brand245",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 101
+  },
+  {
+    "sku": "SKU60568",
+    "item": "charger brand246",
+    "tamil_name": "சார்ஜர் brand246",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 149
+  },
+  {
+    "sku": "SKU60569",
+    "item": "carrot brand247",
+    "tamil_name": "காரட் brand247",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 324
+  },
+  {
+    "sku": "SKU60570",
+    "item": "wheat brand248",
+    "tamil_name": "கோதுமை brand248",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 137
+  },
+  {
+    "sku": "SKU60571",
+    "item": "apple brand249",
+    "tamil_name": "ஆப்பிள் brand249",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 347
+  },
+  {
+    "sku": "SKU60572",
+    "item": "pencil brand250",
+    "tamil_name": "பென்சில் brand250",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 292
+  },
+  {
+    "sku": "SKU60573",
+    "item": "charger brand251",
+    "tamil_name": "சார்ஜர் brand251",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 93
+  },
+  {
+    "sku": "SKU60574",
+    "item": "kiwi brand252",
+    "tamil_name": "கிவி brand252",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 335
+  },
+  {
+    "sku": "SKU60575",
+    "item": "oil brand253",
+    "tamil_name": "எண்ணெய் brand253",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 61
+  },
+  {
+    "sku": "SKU60576",
+    "item": "mango brand254",
+    "tamil_name": "மாம்பழம் brand254",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 154
+  },
+  {
+    "sku": "SKU60577",
+    "item": "kiwi brand255",
+    "tamil_name": "கிவி brand255",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 70
+  },
+  {
+    "sku": "SKU60578",
+    "item": "paneer brand256",
+    "tamil_name": "பனீர் brand256",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 347
+  },
+  {
+    "sku": "SKU60579",
+    "item": "coffee brand257",
+    "tamil_name": "காபி brand257",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 182
+  },
+  {
+    "sku": "SKU60580",
+    "item": "salt brand258",
+    "tamil_name": "உப்பு brand258",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 67
+  },
+  {
+    "sku": "SKU60581",
+    "item": "sugar brand259",
+    "tamil_name": "சர்க்கரை brand259",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 208
+  },
+  {
+    "sku": "SKU60582",
+    "item": "salt brand260",
+    "tamil_name": "உப்பு brand260",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 91
+  },
+  {
+    "sku": "SKU60583",
+    "item": "fig brand261",
+    "tamil_name": "அத்திப்பழம் brand261",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 47
+  },
+  {
+    "sku": "SKU60584",
+    "item": "curd brand262",
+    "tamil_name": "தயிர் brand262",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 307
+  },
+  {
+    "sku": "SKU60585",
+    "item": "apple brand263",
+    "tamil_name": "ஆப்பிள் brand263",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 297
+  },
+  {
+    "sku": "SKU60586",
+    "item": "chips brand264",
+    "tamil_name": "சிப்ஸ் brand264",
+    "category": "snack",
+    "unit": "1 piece",
+    "price": 251
+  },
+  {
+    "sku": "SKU60587",
+    "item": "milk brand265",
+    "tamil_name": "பால் brand265",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 210
+  },
+  {
+    "sku": "SKU60588",
+    "item": "carrot brand266",
+    "tamil_name": "காரட் brand266",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 316
+  },
+  {
+    "sku": "SKU60589",
+    "item": "usb cable brand267",
+    "tamil_name": "USB கேபிள் brand267",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 161
+  },
+  {
+    "sku": "SKU60590",
+    "item": "tomato brand268",
+    "tamil_name": "தக்காளி brand268",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 238
+  },
+  {
+    "sku": "SKU60591",
+    "item": "dates brand269",
+    "tamil_name": "பேரீச்சம் பழம் brand269",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 141
+  },
+  {
+    "sku": "SKU60592",
+    "item": "charger brand270",
+    "tamil_name": "சார்ஜர் brand270",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 145
+  },
+  {
+    "sku": "SKU60593",
+    "item": "fig brand271",
+    "tamil_name": "அத்திப்பழம் brand271",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 160
+  },
+  {
+    "sku": "SKU60594",
+    "item": "ghee brand272",
+    "tamil_name": "நெய் brand272",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 196
+  },
+  {
+    "sku": "SKU60595",
+    "item": "salt brand273",
+    "tamil_name": "உப்பு brand273",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 96
+  },
+  {
+    "sku": "SKU60596",
+    "item": "beans brand274",
+    "tamil_name": "பீன்ஸ் brand274",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 56
+  },
+  {
+    "sku": "SKU60597",
+    "item": "strawberry brand275",
+    "tamil_name": "ஸ்ட்ராபெரி brand275",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 144
+  },
+  {
+    "sku": "SKU60598",
+    "item": "sugar brand276",
+    "tamil_name": "சர்க்கரை brand276",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 134
+  },
+  {
+    "sku": "SKU60599",
+    "item": "paneer brand277",
+    "tamil_name": "பனீர் brand277",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 288
+  },
+  {
+    "sku": "SKU60600",
+    "item": "orange brand278",
+    "tamil_name": "ஆரஞ்சு brand278",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 38
+  },
+  {
+    "sku": "SKU60601",
+    "item": "orange brand279",
+    "tamil_name": "ஆரஞ்சு brand279",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 221
+  },
+  {
+    "sku": "SKU60602",
+    "item": "kiwi brand280",
+    "tamil_name": "கிவி brand280",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 211
+  },
+  {
+    "sku": "SKU60603",
+    "item": "orange brand281",
+    "tamil_name": "ஆரஞ்சு brand281",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 91
+  },
+  {
+    "sku": "SKU60604",
+    "item": "powerbank brand282",
+    "tamil_name": "பவர் பேங்க் brand282",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 77
+  },
+  {
+    "sku": "SKU60605",
+    "item": "notebook brand283",
+    "tamil_name": "குறிப்பு புத்தகம் brand283",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 222
+  },
+  {
+    "sku": "SKU60606",
+    "item": "milk brand284",
+    "tamil_name": "பால் brand284",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 303
+  },
+  {
+    "sku": "SKU60607",
+    "item": "strawberry brand285",
+    "tamil_name": "ஸ்ட்ராபெரி brand285",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 151
+  },
+  {
+    "sku": "SKU60608",
+    "item": "peach brand286",
+    "tamil_name": "பீச் brand286",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 139
+  },
+  {
+    "sku": "SKU60609",
+    "item": "pen brand287",
+    "tamil_name": "பேனா brand287",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 72
+  },
+  {
+    "sku": "SKU60610",
+    "item": "powerbank brand288",
+    "tamil_name": "பவர் பேங்க் brand288",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 90
+  },
+  {
+    "sku": "SKU60611",
+    "item": "peach brand289",
+    "tamil_name": "பீச் brand289",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 115
+  },
+  {
+    "sku": "SKU60612",
+    "item": "pencil brand290",
+    "tamil_name": "பென்சில் brand290",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 76
+  },
+  {
+    "sku": "SKU60613",
+    "item": "pear brand291",
+    "tamil_name": "பேரிக்காய் brand291",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 30
+  },
+  {
+    "sku": "SKU60614",
+    "item": "kiwi brand292",
+    "tamil_name": "கிவி brand292",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 246
+  },
+  {
+    "sku": "SKU60615",
+    "item": "peach brand293",
+    "tamil_name": "பீச் brand293",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 154
+  },
+  {
+    "sku": "SKU60616",
+    "item": "tea brand294",
+    "tamil_name": "தேநீர் brand294",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 273
+  },
+  {
+    "sku": "SKU60617",
+    "item": "usb cable brand295",
+    "tamil_name": "USB கேபிள் brand295",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 52
+  },
+  {
+    "sku": "SKU60618",
+    "item": "brinjal brand296",
+    "tamil_name": "கத்தரிக்காய் brand296",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 98
+  },
+  {
+    "sku": "SKU60619",
+    "item": "tomato brand297",
+    "tamil_name": "தக்காளி brand297",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 34
+  },
+  {
+    "sku": "SKU60620",
+    "item": "watermelon brand298",
+    "tamil_name": "தர்பூசணி brand298",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 191
+  },
+  {
+    "sku": "SKU60621",
+    "item": "powerbank brand299",
+    "tamil_name": "பவர் பேங்க் brand299",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 109
+  },
+  {
+    "sku": "SKU60622",
+    "item": "cauliflower brand300",
+    "tamil_name": "காலிஃபிளவர் brand300",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 333
+  },
+  {
+    "sku": "SKU60623",
+    "item": "powerbank brand301",
+    "tamil_name": "பவர் பேங்க் brand301",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 296
+  },
+  {
+    "sku": "SKU60624",
+    "item": "potato brand302",
+    "tamil_name": "உருளைக்கிழங்கு brand302",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 202
+  },
+  {
+    "sku": "SKU60625",
+    "item": "peach brand303",
+    "tamil_name": "பீச் brand303",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 287
+  },
+  {
+    "sku": "SKU60626",
+    "item": "orange brand304",
+    "tamil_name": "ஆரஞ்சு brand304",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 258
+  },
+  {
+    "sku": "SKU60627",
+    "item": "beetroot brand305",
+    "tamil_name": "பீட்ரூட் brand305",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 327
+  },
+  {
+    "sku": "SKU60628",
+    "item": "pen brand306",
+    "tamil_name": "பேனா brand306",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 216
+  },
+  {
+    "sku": "SKU60629",
+    "item": "salt brand307",
+    "tamil_name": "உப்பு brand307",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 37
+  },
+  {
+    "sku": "SKU60630",
+    "item": "paneer brand308",
+    "tamil_name": "பனீர் brand308",
+    "category": "dairy",
+    "unit": "1 piece",
+    "price": 93
+  },
+  {
+    "sku": "SKU60631",
+    "item": "notebook brand309",
+    "tamil_name": "குறிப்பு புத்தகம் brand309",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 205
+  },
+  {
+    "sku": "SKU60632",
+    "item": "dates brand310",
+    "tamil_name": "பேரீச்சம் பழம் brand310",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 195
+  },
+  {
+    "sku": "SKU60633",
+    "item": "powerbank brand311",
+    "tamil_name": "பவர் பேங்க் brand311",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 34
+  },
+  {
+    "sku": "SKU60634",
+    "item": "grapes brand312",
+    "tamil_name": "திராட்சை brand312",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 33
+  },
+  {
+    "sku": "SKU60635",
+    "item": "sugar brand313",
+    "tamil_name": "சர்க்கரை brand313",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 316
+  },
+  {
+    "sku": "SKU60636",
+    "item": "grapes brand314",
+    "tamil_name": "திராட்சை brand314",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 241
+  },
+  {
+    "sku": "SKU60637",
+    "item": "sugar brand315",
+    "tamil_name": "சர்க்கரை brand315",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 143
+  },
+  {
+    "sku": "SKU60638",
+    "item": "pen brand316",
+    "tamil_name": "பேனா brand316",
+    "category": "stationery",
+    "unit": "1 piece",
+    "price": 273
+  },
+  {
+    "sku": "SKU60639",
+    "item": "kiwi brand317",
+    "tamil_name": "கிவி brand317",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 216
+  },
+  {
+    "sku": "SKU60640",
+    "item": "salt brand318",
+    "tamil_name": "உப்பு brand318",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 67
+  },
+  {
+    "sku": "SKU60641",
+    "item": "strawberry brand319",
+    "tamil_name": "ஸ்ட்ராபெரி brand319",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 241
+  },
+  {
+    "sku": "SKU60642",
+    "item": "cabbage brand320",
+    "tamil_name": "முட்டைகோசு brand320",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 35
+  },
+  {
+    "sku": "SKU60643",
+    "item": "carrot brand321",
+    "tamil_name": "காரட் brand321",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 174
+  },
+  {
+    "sku": "SKU60644",
+    "item": "apple brand322",
+    "tamil_name": "ஆப்பிள் brand322",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 198
+  },
+  {
+    "sku": "SKU60645",
+    "item": "usb cable brand323",
+    "tamil_name": "USB கேபிள் brand323",
+    "category": "electronics",
+    "unit": "1 piece",
+    "price": 59
+  },
+  {
+    "sku": "SKU60646",
+    "item": "strawberry brand324",
+    "tamil_name": "ஸ்ட்ராபெரி brand324",
+    "category": "fruit",
+    "unit": "1kg",
+    "price": 147
+  },
+  {
+    "sku": "SKU60647",
+    "item": "brinjal brand325",
+    "tamil_name": "கத்தரிக்காய் brand325",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 115
+  },
+  {
+    "sku": "SKU60648",
+    "item": "cabbage brand326",
+    "tamil_name": "முட்டைகோசு brand326",
+    "category": "vegetable",
+    "unit": "1kg",
+    "price": 277
+  },
+  {
+    "sku": "SKU60649",
+    "item": "sugar brand327",
+    "tamil_name": "சர்க்கரை brand327",
+    "category": "grocery",
+    "unit": "1kg",
+    "price": 83
+  }
+]

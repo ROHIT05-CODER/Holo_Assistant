@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>🤖 Hologram Grocery AI Assistant</title>
+<style>
+body{margin:0;background:#000;color:#eee;font-family:"Noto Sans Tamil",Segoe UI,Roboto;}
+.app{max-width:960px;margin:12px auto;padding:14px;}
+h1{color:#7be;font-size:1.2rem;margin:0 0 8px}
+.controls{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+button,input{padding:8px;border-radius:8px;border:1px solid #222;background:#0b0b0b;color:#fff}
+button{cursor:pointer}
+.status{margin-left:8px;color:#aaa;font-size:0.9rem;flex:1}
+.resultBox{margin-top:12px;padding:12px;background:#070707;border:1px solid #222;border-radius:8px;min-height:48px;display:flex;align-items:center;gap:12px;}
+.resultBox img{height:40px;width:40px;border-radius:4px;object-fit:cover;}
+.holo-stage{margin-top:18px;display:flex;justify-content:center}
+.pyramid{width:640px;height:360px;position:relative}
+.pane{position:absolute;left:50%;top:50%;width:320px;height:180px;margin:-90px -160px;overflow:hidden}
+.pane video{width:100%;height:100%;display:block;object-fit:cover;}
+/* Mini assistant styles */
+#starBtn{position:fixed;bottom:20px;right:20px;z-index:9999;font-size:24px;padding:10px;border-radius:50%;background:#ff0;color:#000;cursor:pointer;}
+#miniAssistant{position:fixed;bottom:70px;right:20px;width:300px;height:400px;background:#111;color:#fff;border:2px solid #222;border-radius:12px;padding:12px;display:none;flex-direction:column;z-index:9999;}
+#miniAssistant .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+#miniAssistant .header button{background:#222;color:#fff;border:none;border-radius:6px;padding:2px 6px;cursor:pointer;}
+#miniResult{flex:1;background:#070707;padding:8px;border-radius:6px;overflow-y:auto;margin-bottom:8px;}
+#miniQuery{width:100%;padding:6px;border-radius:6px;border:1px solid #222;background:#0b0b0b;color:#fff;margin-bottom:6px;}
+#miniControls{display:flex;gap:6px;}
+</style>
+</head>
+<body>
+<div class="app">
+  <h1>🤖 ஹோலோகிராம் Grocery AI உதவியாளர்</h1>
+  <div class="controls">
+    <button id="startRec">🎤 Mic ON</button>
+    <button id="stopRec">⏹ Mic OFF</button>
+    <button id="stopVoice">🛑 Stop Voice</button>
+    <input id="manualQuery" placeholder="உதாரணம்: 'ஆப்பிள் விலை'..." />
+    <button id="askBtn">🔎 தேடு</button>
+    <div class="status" id="status">Dataset load ஆகுது...</div>
+  </div>
+  <div class="resultBox" id="resultBox">பதில் இங்கே வரும்.</div>
+
+  <div class="holo-stage">
+    <div class="pyramid">
+      <div class="pane top"><video id="vTop" src="holo_avatar.mp4" loop muted playsinline></video></div>
+      <div class="pane bottom"><video id="vBottom" src="holo_avatar.mp4" loop muted playsinline></video></div>
+      <div class="pane left"><video id="vLeft" src="holo_avatar.mp4" loop muted playsinline></video></div>
+      <div class="pane right"><video id="vRight" src="holo_avatar.mp4" loop muted playsinline></video></div>
+    </div>
+  </div>
+</div>
+
+<button id="starBtn">⭐</button>
+<div id="miniAssistant">
+  <div class="header"><span>🤖 Assistant</span><button id="closeMini">✖</button></div>
+  <div id="miniResult">பதில் இங்கே வரும்.</div>
+  <input id="miniQuery" placeholder="Ask here..." />
+  <div id="miniControls">
+    <button id="miniMicOn">🎤 Mic ON</button>
+    <button id="miniMicOff">⏹ Mic OFF</button>
+    <button id="miniStopVoice">🛑 Stop Voice</button>
+    <button id="miniAskBtn">🔎</button>
+  </div>
+</div>
+
+<script>
+/* === STATE === */
+let products=[], cart={}, recognition=null;
+const vids=['vTop','vBottom','vLeft','vRight'].map(id=>document.getElementById(id));
+let autoCloseTimer;
+
+/* === Dataset Load === */
+fetch('dataset.json').then(r=>r.json()).then(j=>{
+  products=j;
+  document.getElementById("status").textContent=`Dataset loaded: ${products.length} items`;
+}).catch(e=>{
+  console.error(e);
+  document.getElementById("status").textContent="dataset.json load தோல்வி";
+});
+
+/* === Helpers === */
+function detectLang(s){ return /[\u0b80-\u0bff]/.test(s)?'ta':'en'; }
+function fuzzySearch(q){q=q.toLowerCase();return products.find(p=>p.item?.toLowerCase().includes(q)||p.tamil_name?.includes(q))||null;}
+function formatReply(p,lang){return lang==='ta'?`${p.tamil_name} (${p.item}): ₹${p.price}/${p.unit}`:`${p.item} (${p.tamil_name}): ₹${p.price}/${p.unit}`;}
+function speak(text,lang){speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(text); u.lang=(lang==='ta')?'ta-IN':'en-US'; u.rate=1.2; u.onstart=()=>startAvatarTalking(true); u.onend=()=>{startAvatarTalking(false); setAutoCloseTimer();}; speechSynthesis.speak(u);}
+
+/* === Auto-close Mini Assistant === */
+function showMiniAssistant(){
+  const mini = document.getElementById("miniAssistant");
+  mini.style.display = 'flex';
+  mini.style.flexDirection = 'column';
+  clearTimeout(autoCloseTimer);
+}
+
+function setAutoCloseTimer(){
+  clearTimeout(autoCloseTimer);
+  autoCloseTimer = setTimeout(() => {
+    document.getElementById("miniAssistant").style.display = 'none';
+  }, 5000); // Hides after 5 seconds of inactivity
+}
+
+/* === Cart System === */
+function addToCart(item){const p=fuzzySearch(item); if(!p) return detectLang(item)==='ta'?"பொருள் கிடையாது":"Item not found"; cart[item]=(cart[item]||0)+1; return detectLang(item)==='ta'?`${p.tamil_name} cart-க்கு சேர்க்கப்பட்டது, மொத்தம் ${cart[item]} pcs`:`${p.item} added to cart, total ${cart[item]} pcs`;}
+function removeFromCart(item){if(!cart[item]) return detectLang(item)==='ta'?"Cart-ல் இல்லை":"Not in cart"; cart[item]-=1; if(cart[item]<=0) delete cart[item]; return detectLang(item)==='ta'?"Item cart-இல் இருந்து நீக்கப்பட்டது":"Item removed from cart";}
+function showCart(){let total=0,text=detectLang("")==='ta'?"Cart:\n":"Cart:\n"; for(const i in cart){const p=fuzzySearch(i); if(!p) continue; text+=`${p.item} x ${cart[i]} = ₹${p.price*cart[i]}\n`; total+=p.price*cart[i];} text+=`Total: ₹${total}`; return text;}
+
+/* === Gemini Proxy === */
+async function callGemini(text, lang='en'){try{const resp=await fetch("http://127.0.0.1:5000/api/gemini",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({text,lang})}); const data=await resp.json(); if(data.error) return lang==='ta'?"Gemini proxy பிழை":"Gemini proxy error"; return data?.candidates?.[0]?.content?.parts?.[0]?.text || (lang==='ta'?"பதில் இல்லை":"No answer");}catch(e){return lang==='ta'?"Gemini கோரிக்கை தோல்வி":"Gemini request failed";}}
+
+/* === Query Handler === */
+async function handleQuery(text){
+  text=text.trim(); if(!text) return;
+  const lang=detectLang(text); let reply="", resultImg="";
+  showMiniAssistant();
+  if(text.toLowerCase().includes("stop")){speechSynthesis.cancel(); return;}
+  if(text.toLowerCase().includes("mic off")){recognition && recognition.stop(); return;}
+  if(text.toLowerCase().includes("mic on")){recognition && recognition.start(); return;}
+  if(text.toLowerCase().includes("add ")){reply=addToCart(text.replace(/add /i,'').trim());}
+  else if(text.toLowerCase().includes("remove ")){reply=removeFromCart(text.replace(/remove /i,'').trim());}
+  else if(text.toLowerCase().includes("show cart") || text.toLowerCase().includes("total")){reply=showCart();}
+  else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang); resultImg=p.image||"";}else{reply="Gemini fallback..."; reply=await callGemini(text,lang);}}
+  const box=document.getElementById("resultBox"); box.innerHTML=resultImg?`<img src="${resultImg}"/> ${reply}`:reply;
+  speak(reply,lang);
+}
+
+/* === Mini Assistant === */
+async function miniHandleQuery(text){
+  text=text.trim(); if(!text) return;
+  const lang=detectLang(text); let reply="", resultImg="";
+  showMiniAssistant();
+  if(text.toLowerCase().includes("stop")){speechSynthesis.cancel(); return;}
+  if(text.toLowerCase().includes("mic off")){recognition && recognition.stop(); return;}
+  if(text.toLowerCase().includes("mic on")){recognition && recognition.start(); return;}
+  if(text.toLowerCase().includes("add ")){reply=addToCart(text.replace(/add /i,'').trim());}
+  else if(text.toLowerCase().includes("remove ")){reply=removeFromCart(text.replace(/remove /i,'').trim());}
+  else if(text.toLowerCase().includes("show cart") || text.toLowerCase().includes("total")){reply=showCart();}
+  else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang); resultImg=p.image||"";}else{reply="Gemini fallback..."; reply=await callGemini(text,lang);}}
+  const miniResult=document.getElementById("miniResult");
+  miniResult.innerHTML=resultImg?`<img src="${resultImg}" style="height:40px;width:40px;object-fit:cover;border-radius:4px;"> ${reply}`:reply;
+  speak(reply,lang);
+}
+
+/* === STT === */
+function initSTT(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR) return; recognition=new SR(); recognition.lang='ta-IN'; recognition.interimResults=false; recognition.onresult=e=>{const txt=e.results[0][0].transcript; document.getElementById("manualQuery").value=txt; handleQuery(txt);};}
+initSTT();
+document.getElementById("startRec").onclick=()=>recognition&&recognition.start();
+document.getElementById("stopRec").onclick=()=>recognition&&recognition.stop();
+document.getElementById("stopVoice").onclick=()=>speechSynthesis.cancel();
+document.getElementById("askBtn").onclick=()=>handleQuery(document.getElementById("manualQuery").value);
+
+/* === Mini Assistant Controls === */
+const starBtn=document.getElementById("starBtn");
+const mini=document.getElementById("miniAssistant");
+const closeMini=document.getElementById("closeMini");
+starBtn.onclick=()=>showMiniAssistant(); // Re-use the new show function
+closeMini.onclick=()=>mini.style.display='none';
+document.getElementById("miniMicOn").onclick=()=>recognition&&recognition.start();
+document.getElementById("miniMicOff").onclick=()=>recognition&&recognition.stop();
+document.getElementById("miniStopVoice").onclick=()=>speechSynthesis.cancel();
+document.getElementById("miniAskBtn").onclick=()=>miniHandleQuery(document.getElementById("miniQuery").value);
+
+/* === Holo Video Animation === */
+function startAvatarTalking(start){vids.forEach(v=>{if(start){v.play();}else{v.pause(); v.currentTime=0;}});}
+</script>
+</body>
+</html>
