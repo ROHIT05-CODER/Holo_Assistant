@@ -1,57 +1,67 @@
-# gemini_proxy.py
-from flask import Flask, request, jsonify, send_from_directory
+import os
+import requests
+from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os, requests
+from dotenv import load_dotenv
 
-app = Flask(__name__, static_folder=".")
-CORS(app)
+# Load .env if available
+load_dotenv()
 
-# ✅ Gemini API Key (set in Render Environment Variables)
-GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
+app = Flask(__name__)
+CORS(app)  # Allow all origins for frontend access
+
+# Get API Key from environment
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 if not GEMINI_KEY:
-    raise ValueError("❌ Please set GEMINI_API_KEY as an environment variable in Render.")
+    raise ValueError("❌ Please set GEMINI_API_KEY as an environment variable.")
 
-# ✅ Use latest Gemini endpoint (2.5)
-GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1/models/"
-    "gemini-2.5-pro:generateContent?key=" + GEMINI_KEY
-)
+# Gemini 2.5 endpoint
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key={GEMINI_KEY}"
 
-# === Gemini Proxy API ===
-@app.route("/api/gemini", methods=["POST"])
-def proxy_gemini():
-    data = request.get_json() or {}
-    text = data.get("text", "")
-    lang = data.get("lang", "en")
-
-    prompt = f'{"தமிழில் சுருக்கமான பதில்:" if lang=="ta" else "Answer shortly:"} {text}'
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
-
-    try:
-        print("➡️ Sending to Gemini:", body)  # Debug log
-        resp = requests.post(GEMINI_URL, json=body, timeout=15)
-        resp.raise_for_status()
-        response_json = resp.json()
-        print("⬅️ Gemini Response:", response_json)  # Debug log
-        return jsonify(response_json)
-    except Exception as e:
-        print("❌ Gemini Error:", str(e))
-        return jsonify({"error": str(e)}), 500
-
-# === Serve Static Files (HTML, JSON, MP4, etc.) ===
 @app.route("/")
-def serve_index():
-    return send_from_directory(".", "holo_assistant.html")
+def home():
+    return jsonify({"status": "✅ Gemini Proxy Running", "endpoint": "/api/gemini"})
 
-@app.route("/<path:filename>")
-def serve_static(filename):
-    return send_from_directory(".", filename)
+@app.route("/api/gemini", methods=["POST"])
+def call_gemini():
+    try:
+        data = request.get_json()
+        text = data.get("text", "")
+        lang = data.get("lang", "en")
+        context = data.get("context", [])
 
-# === Health Check ===
-@app.route("/health")
-def health():
-    return "✅ Holo Assistant server running!"
+        if not text:
+            return jsonify({"error": "No text provided"}), 400
+
+        # Build prompt with context
+        context_str = ""
+        if context and isinstance(context, list):
+            context_str = "\n\nHere is some product info:\n"
+            for c in context[:5]:
+                item = c.get("item", "")
+                tamil = c.get("tamil_name", "")
+                price = c.get("price", "")
+                unit = c.get("unit", "")
+                context_str += f"- {item} ({tamil}) : ₹{price}/{unit}\n"
+
+        prompt = f"User asked in {lang}: {text}\n{context_str}\nAnswer shortly and clearly."
+
+        # Send to Gemini API
+        payload = {
+            "contents": [
+                {"parts": [{"text": prompt}]}
+            ]
+        }
+
+        resp = requests.post(GEMINI_URL, json=payload)
+        resp.raise_for_status()
+        return jsonify(resp.json())
+
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": f"❌ Gemini API request failed: {str(e)}"}), 500
+    except Exception as e:
+        return jsonify({"error": f"❌ Internal server error: {str(e)}"}), 500
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
