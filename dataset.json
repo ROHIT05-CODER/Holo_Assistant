@@ -1,2402 +1,313 @@
 [
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 108,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "jackfruit",
-    "tamil_name": "jackfruit_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 144,
-    "description": "jackfruit - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 105,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "lemon",
-    "tamil_name": "lemon_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 251,
-    "description": "lemon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 219,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 191,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "papaya",
-    "tamil_name": "papaya_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 202,
-    "description": "papaya - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pineapple",
-    "tamil_name": "pineapple_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 238,
-    "description": "pineapple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "strawberry",
-    "tamil_name": "strawberry_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 30,
-    "description": "strawberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "blackberry",
-    "tamil_name": "blackberry_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 263,
-    "description": "blackberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "guava",
-    "tamil_name": "guava_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 200,
-    "description": "guava - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 215,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "blueberry",
-    "tamil_name": "blueberry_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 152,
-    "description": "blueberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 144,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "custard apple",
-    "tamil_name": "custard apple_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 52,
-    "description": "custard apple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "guava",
-    "tamil_name": "guava_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 218,
-    "description": "guava - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pear",
-    "tamil_name": "pear_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 37,
-    "description": "pear - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "jackfruit",
-    "tamil_name": "jackfruit_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 197,
-    "description": "jackfruit - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "sapota",
-    "tamil_name": "sapota_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 201,
-    "description": "sapota - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "mango",
-    "tamil_name": "mango_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 183,
-    "description": "mango - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "apple",
-    "tamil_name": "apple_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 65,
-    "description": "apple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "blueberry",
-    "tamil_name": "blueberry_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 106,
-    "description": "blueberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "jackfruit",
-    "tamil_name": "jackfruit_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 32,
-    "description": "jackfruit - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 121,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 105,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "sapota",
-    "tamil_name": "sapota_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 166,
-    "description": "sapota - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "blueberry",
-    "tamil_name": "blueberry_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 224,
-    "description": "blueberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "strawberry",
-    "tamil_name": "strawberry_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 107,
-    "description": "strawberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pomegranate",
-    "tamil_name": "pomegranate_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 109,
-    "description": "pomegranate - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "guava",
-    "tamil_name": "guava_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 270,
-    "description": "guava - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "mango",
-    "tamil_name": "mango_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 74,
-    "description": "mango - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "sapota",
-    "tamil_name": "sapota_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 213,
-    "description": "sapota - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "orange",
-    "tamil_name": "orange_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 210,
-    "description": "orange - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "plum",
-    "tamil_name": "plum_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 237,
-    "description": "plum - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pomegranate",
-    "tamil_name": "pomegranate_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 77,
-    "description": "pomegranate - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pomegranate",
-    "tamil_name": "pomegranate_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 199,
-    "description": "pomegranate - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "orange",
-    "tamil_name": "orange_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 252,
-    "description": "orange - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "apple",
-    "tamil_name": "apple_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 96,
-    "description": "apple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "grapes",
-    "tamil_name": "grapes_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 202,
-    "description": "grapes - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "papaya",
-    "tamil_name": "papaya_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 45,
-    "description": "papaya - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "strawberry",
-    "tamil_name": "strawberry_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 34,
-    "description": "strawberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pear",
-    "tamil_name": "pear_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 209,
-    "description": "pear - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 96,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "grapes",
-    "tamil_name": "grapes_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 162,
-    "description": "grapes - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 153,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "jackfruit",
-    "tamil_name": "jackfruit_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 194,
-    "description": "jackfruit - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "banana",
-    "tamil_name": "banana_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 65,
-    "description": "banana - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "lemon",
-    "tamil_name": "lemon_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 226,
-    "description": "lemon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 276,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "peach",
-    "tamil_name": "peach_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 141,
-    "description": "peach - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "mango",
-    "tamil_name": "mango_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 163,
-    "description": "mango - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pineapple",
-    "tamil_name": "pineapple_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 90,
-    "description": "pineapple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "apple",
-    "tamil_name": "apple_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 39,
-    "description": "apple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pineapple",
-    "tamil_name": "pineapple_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 152,
-    "description": "pineapple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "blueberry",
-    "tamil_name": "blueberry_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 144,
-    "description": "blueberry - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "sapota",
-    "tamil_name": "sapota_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 56,
-    "description": "sapota - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "watermelon",
-    "tamil_name": "watermelon_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 298,
-    "description": "watermelon - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "pineapple",
-    "tamil_name": "pineapple_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 225,
-    "description": "pineapple - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "mango",
-    "tamil_name": "mango_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 73,
-    "description": "mango - Fruits product"
-  },
-  {
-    "category": "Fruits",
-    "item": "jackfruit",
-    "tamil_name": "jackfruit_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 258,
-    "description": "jackfruit - Fruits product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 61,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "tomato",
-    "tamil_name": "tomato_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 154,
-    "description": "tomato - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "beans",
-    "tamil_name": "beans_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 126,
-    "description": "beans - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ridge gourd",
-    "tamil_name": "ridge gourd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 243,
-    "description": "ridge gourd - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cauliflower",
-    "tamil_name": "cauliflower_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 76,
-    "description": "cauliflower - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 91,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ladies finger",
-    "tamil_name": "ladies finger_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 61,
-    "description": "ladies finger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "brinjal",
-    "tamil_name": "brinjal_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 271,
-    "description": "brinjal - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "potato",
-    "tamil_name": "potato_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 101,
-    "description": "potato - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cauliflower",
-    "tamil_name": "cauliflower_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 34,
-    "description": "cauliflower - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "pumpkin",
-    "tamil_name": "pumpkin_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 95,
-    "description": "pumpkin - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ladies finger",
-    "tamil_name": "ladies finger_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 27,
-    "description": "ladies finger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "beetroot",
-    "tamil_name": "beetroot_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 291,
-    "description": "beetroot - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 244,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "beans",
-    "tamil_name": "beans_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 228,
-    "description": "beans - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "onion",
-    "tamil_name": "onion_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 276,
-    "description": "onion - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "potato",
-    "tamil_name": "potato_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 73,
-    "description": "potato - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 201,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cauliflower",
-    "tamil_name": "cauliflower_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 226,
-    "description": "cauliflower - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "bitter gourd",
-    "tamil_name": "bitter gourd_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 284,
-    "description": "bitter gourd - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "radish",
-    "tamil_name": "radish_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 228,
-    "description": "radish - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "garlic",
-    "tamil_name": "garlic_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 125,
-    "description": "garlic - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "brinjal",
-    "tamil_name": "brinjal_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 50,
-    "description": "brinjal - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cauliflower",
-    "tamil_name": "cauliflower_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 213,
-    "description": "cauliflower - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "brinjal",
-    "tamil_name": "brinjal_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 292,
-    "description": "brinjal - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "chilli",
-    "tamil_name": "chilli_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 109,
-    "description": "chilli - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cabbage",
-    "tamil_name": "cabbage_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 110,
-    "description": "cabbage - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "bitter gourd",
-    "tamil_name": "bitter gourd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 103,
-    "description": "bitter gourd - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 47,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 98,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "brinjal",
-    "tamil_name": "brinjal_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 112,
-    "description": "brinjal - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "capsicum",
-    "tamil_name": "capsicum_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 69,
-    "description": "capsicum - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 260,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 213,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "chilli",
-    "tamil_name": "chilli_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 247,
-    "description": "chilli - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cabbage",
-    "tamil_name": "cabbage_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 86,
-    "description": "cabbage - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "radish",
-    "tamil_name": "radish_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 153,
-    "description": "radish - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 289,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "pumpkin",
-    "tamil_name": "pumpkin_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 162,
-    "description": "pumpkin - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 50,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "onion",
-    "tamil_name": "onion_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 249,
-    "description": "onion - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "radish",
-    "tamil_name": "radish_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 297,
-    "description": "radish - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 91,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cauliflower",
-    "tamil_name": "cauliflower_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 162,
-    "description": "cauliflower - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ginger",
-    "tamil_name": "ginger_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 134,
-    "description": "ginger - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "carrot",
-    "tamil_name": "carrot_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 72,
-    "description": "carrot - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "pumpkin",
-    "tamil_name": "pumpkin_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 89,
-    "description": "pumpkin - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "spinach",
-    "tamil_name": "spinach_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 55,
-    "description": "spinach - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "garlic",
-    "tamil_name": "garlic_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 202,
-    "description": "garlic - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "cucumber",
-    "tamil_name": "cucumber_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 179,
-    "description": "cucumber - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "bitter gourd",
-    "tamil_name": "bitter gourd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 67,
-    "description": "bitter gourd - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "garlic",
-    "tamil_name": "garlic_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 254,
-    "description": "garlic - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "beetroot",
-    "tamil_name": "beetroot_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 73,
-    "description": "beetroot - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "potato",
-    "tamil_name": "potato_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 117,
-    "description": "potato - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "radish",
-    "tamil_name": "radish_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 300,
-    "description": "radish - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "ridge gourd",
-    "tamil_name": "ridge gourd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 56,
-    "description": "ridge gourd - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "brinjal",
-    "tamil_name": "brinjal_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 134,
-    "description": "brinjal - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "radish",
-    "tamil_name": "radish_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 212,
-    "description": "radish - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "pumpkin",
-    "tamil_name": "pumpkin_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 92,
-    "description": "pumpkin - Vegetables product"
-  },
-  {
-    "category": "Vegetables",
-    "item": "bitter gourd",
-    "tamil_name": "bitter gourd_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 272,
-    "description": "bitter gourd - Vegetables product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 193,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 193,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cheese",
-    "tamil_name": "cheese_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 192,
-    "description": "cheese - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 256,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "curd",
-    "tamil_name": "curd_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 152,
-    "description": "curd - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 261,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 98,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "khoya",
-    "tamil_name": "khoya_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 197,
-    "description": "khoya - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 207,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 193,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 66,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 34,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "curd",
-    "tamil_name": "curd_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 31,
-    "description": "curd - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 199,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 61,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 45,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 280,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "khoya",
-    "tamil_name": "khoya_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 239,
-    "description": "khoya - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "khoya",
-    "tamil_name": "khoya_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 102,
-    "description": "khoya - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 291,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 45,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 183,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 91,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 198,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 204,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 219,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 253,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 209,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "yogurt",
-    "tamil_name": "yogurt_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 235,
-    "description": "yogurt - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 50,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 213,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 217,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "yogurt",
-    "tamil_name": "yogurt_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 54,
-    "description": "yogurt - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "yogurt",
-    "tamil_name": "yogurt_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 77,
-    "description": "yogurt - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 239,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 33,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "yogurt",
-    "tamil_name": "yogurt_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 112,
-    "description": "yogurt - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 282,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 107,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "curd",
-    "tamil_name": "curd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 89,
-    "description": "curd - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 125,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 208,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 177,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 256,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 186,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 255,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "paneer",
-    "tamil_name": "paneer_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 171,
-    "description": "paneer - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "curd",
-    "tamil_name": "curd_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 224,
-    "description": "curd - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 247,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 38,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "khoya",
-    "tamil_name": "khoya_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 63,
-    "description": "khoya - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 266,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 228,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 231,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 85,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "butter",
-    "tamil_name": "butter_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 278,
-    "description": "butter - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "ghee",
-    "tamil_name": "ghee_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 215,
-    "description": "ghee - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "buttermilk",
-    "tamil_name": "buttermilk_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 69,
-    "description": "buttermilk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "milk",
-    "tamil_name": "milk_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 138,
-    "description": "milk - Dairy product"
-  },
-  {
-    "category": "Dairy",
-    "item": "cream",
-    "tamil_name": "cream_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 80,
-    "description": "cream - Dairy product"
-  },
-  {
-    "category": "Snacks",
-    "item": "namkeen",
-    "tamil_name": "namkeen_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 184,
-    "description": "namkeen - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 66,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 279,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "laddu",
-    "tamil_name": "laddu_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 122,
-    "description": "laddu - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 289,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "laddu",
-    "tamil_name": "laddu_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 239,
-    "description": "laddu - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 261,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 53,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 61,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 153,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "popcorn",
-    "tamil_name": "popcorn_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 241,
-    "description": "popcorn - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "namkeen",
-    "tamil_name": "namkeen_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 94,
-    "description": "namkeen - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 132,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 132,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 171,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "laddu",
-    "tamil_name": "laddu_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 80,
-    "description": "laddu - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "popcorn",
-    "tamil_name": "popcorn_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 269,
-    "description": "popcorn - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 263,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chocolate",
-    "tamil_name": "chocolate_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 227,
-    "description": "chocolate - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 25,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chocolate",
-    "tamil_name": "chocolate_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 296,
-    "description": "chocolate - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 107,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 134,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 48,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 243,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chocolate",
-    "tamil_name": "chocolate_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 39,
-    "description": "chocolate - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 220,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 97,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 201,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "popcorn",
-    "tamil_name": "popcorn_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 207,
-    "description": "popcorn - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 95,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 70,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 22,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chocolate",
-    "tamil_name": "chocolate_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 72,
-    "description": "chocolate - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 249,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 190,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 117,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 151,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 116,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 284,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 30,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 149,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "laddu",
-    "tamil_name": "laddu_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 218,
-    "description": "laddu - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 130,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 50,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "laddu",
-    "tamil_name": "laddu_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 218,
-    "description": "laddu - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "biscuits",
-    "tamil_name": "biscuits_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 21,
-    "description": "biscuits - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 224,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 23,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 260,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "murukku",
-    "tamil_name": "murukku_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 87,
-    "description": "murukku - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 224,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "namkeen",
-    "tamil_name": "namkeen_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 232,
-    "description": "namkeen - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "cake",
-    "tamil_name": "cake_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 293,
-    "description": "cake - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 23,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "halwa",
-    "tamil_name": "halwa_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 277,
-    "description": "halwa - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 157,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "chips",
-    "tamil_name": "chips_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 38,
-    "description": "chips - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "mixture",
-    "tamil_name": "mixture_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 206,
-    "description": "mixture - Snacks product"
-  },
-  {
-    "category": "Snacks",
-    "item": "popcorn",
-    "tamil_name": "popcorn_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 138,
-    "description": "popcorn - Snacks product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "detergent",
-    "tamil_name": "detergent_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 289,
-    "description": "detergent - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 142,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "soap",
-    "tamil_name": "soap_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 54,
-    "description": "soap - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 178,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 156,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 235,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 180,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 247,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 146,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 118,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 22,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 185,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 84,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toilet cleaner",
-    "tamil_name": "toilet cleaner_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 148,
-    "description": "toilet cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 149,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 145,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "soap",
-    "tamil_name": "soap_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 44,
-    "description": "soap - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 299,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "shampoo",
-    "tamil_name": "shampoo_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 105,
-    "description": "shampoo - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "detergent",
-    "tamil_name": "detergent_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 64,
-    "description": "detergent - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 144,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "detergent",
-    "tamil_name": "detergent_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 241,
-    "description": "detergent - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 141,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 118,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 273,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 86,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 208,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 278,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toilet cleaner",
-    "tamil_name": "toilet cleaner_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 54,
-    "description": "toilet cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 58,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "soap",
-    "tamil_name": "soap_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 153,
-    "description": "soap - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "soap",
-    "tamil_name": "soap_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 299,
-    "description": "soap - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 217,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 59,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 249,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "1 பீஸ்",
-    "price": 297,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 161,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 23,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 199,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toilet cleaner",
-    "tamil_name": "toilet cleaner_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 81,
-    "description": "toilet cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 241,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 291,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toilet cleaner",
-    "tamil_name": "toilet cleaner_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 113,
-    "description": "toilet cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 23,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 259,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 263,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "toothpaste",
-    "tamil_name": "toothpaste_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 254,
-    "description": "toothpaste - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 278,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "soap",
-    "tamil_name": "soap_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 180,
-    "description": "soap - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "floor cleaner",
-    "tamil_name": "floor cleaner_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 201,
-    "description": "floor cleaner - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 55,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "dish wash",
-    "tamil_name": "dish wash_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 166,
-    "description": "dish wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "hand wash",
-    "tamil_name": "hand wash_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 284,
-    "description": "hand wash - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 67,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 லிட்டர்",
-    "price": 39,
-    "description": "sanitizer - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "shampoo",
-    "tamil_name": "shampoo_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 214,
-    "description": "shampoo - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "250 கிராம்",
-    "price": 289,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "phenyl",
-    "tamil_name": "phenyl_தமிழ்",
-    "unit": "500 கிராம்",
-    "price": 177,
-    "description": "phenyl - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "detergent",
-    "tamil_name": "detergent_தமிழ்",
-    "unit": "1 கிலோ",
-    "price": 156,
-    "description": "detergent - Cleaning product"
-  },
-  {
-    "category": "Cleaning",
-    "item": "sanitizer",
-    "tamil_name": "sanitizer_தமிழ்",
-    "unit": "1 பாக்கெட்",
-    "price": 260,
-    "description": "sanitizer - Cleaning product"
-  }
-]
+  item,tamil_name,unit,price,description
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+apple,ஆப்பிள்,1 கிலோ,180,காஷ்மீர் ஆப்பிள்
+banana,வாழைப்பழம்,1 டஜன்,40,பச்சை வாழைப்பழம்
+mango,மாம்பழம்,1 கிலோ,120,அல்போன்சோ மாம்பழம்
+orange,ஆரஞ்சு,1 கிலோ,90,நாக்பூர் ஆரஞ்சு
+grapes,திராட்சை,500 கிராம்,80,விதையில்லா திராட்சை
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+tomato,தக்காளி,1 கிலோ,30,புதிய தக்காளி
+onion,வெங்காயம்,1 கிலோ,40,நாசிக் வெங்காயம்
+potato,உருளைக்கிழங்கு,1 கிலோ,35,மஞ்சள் உருளைக்கிழங்கு
+carrot,காரட்,1 கிலோ,60,ஊட்டி காரட்
+cabbage,முட்டைகோசு,1 பீஸ்,50,புதிய முட்டைகோசு
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+milk,பால்,1 லிட்டர்,50,கோமாதா பால்
+curd,தயிர்,500 கிராம்,40,நாட்டு தயிர்
+butter,வெண்ணெய்,100 கிராம்,60,அமுல் வெண்ணெய்
+ghee,நெய்,200 மில்லி,120,நாட்டு நெய்
+cheese,சீஸ்,200 கிராம்,150,மொசாரெல்லா சீஸ்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+chips,சிப்ஸ்,1 பாக்கெட்,20,உருளைக்கிழங்கு சிப்ஸ்
+biscuits,பிஸ்கட்,1 பாக்கெட்,30,மாரி பிஸ்கட்
+namkeen,நம்கீன்,500 கிராம்,70,மிக்ஸ் நம்கீன்
+chocolate,சாக்லேட்,1 பார்,40,டெய்ரி மில்க்
+cake,கேக்,250 கிராம்,120,பிளாக் ஃபாரஸ்ட் கேக்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+soap,சோப்பு,1 பீஸ்,25,ஹமாம் சோப்பு
+detergent,டிடர்ஜென்ட்,1 கிலோ,80,அரியல் டிடர்ஜென்ட்
+shampoo,ஷாம்பு,180 மில்லி,120,சன்சில்க் ஷாம்பு
+toothpaste,பல் தூள்,200 கிராம்,60,கோல்கேட் பேஸ்ட்
+phenyl,பீனில்,1 லிட்டர்,90,ஹார்பிக் பீனில்
+];
