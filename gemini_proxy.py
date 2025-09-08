@@ -56,7 +56,16 @@ def call_gemini():
 
         resp = requests.post(GEMINI_URL, json=payload)
         resp.raise_for_status()
-        return jsonify(resp.json())
+
+        result = resp.json()
+        reply = (
+            result.get("candidates", [{}])[0]
+            .get("content", {})
+            .get("parts", [{}])[0]
+            .get("text", "No reply")
+        )
+
+        return jsonify({"reply": reply})
 
     except requests.exceptions.RequestException as e:
         return jsonify({"error": f"❌ Gemini API request failed: {str(e)}"}), 500
@@ -65,4 +74,4 @@ def call_gemini():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port
