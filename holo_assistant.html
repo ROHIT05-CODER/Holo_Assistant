@@ -23,11 +23,6 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
 .pyramid{width:960px;height:540px;position:relative;}
 .pane{position:absolute;left:50%;top:50%;width:720px;height:380px;margin:-270px -480px;overflow:hidden}
 .pane video{width:100%;height:100%;display:block;object-fit:cover;}
-/* Mini Assistant */
-#miniAssistant{position:fixed;bottom:70px;right:20px;width:300px;height:400px;background:#111;color:#fff;border:2px solid #222;border-radius:12px;padding:12px;display:none;flex-direction:column;z-index:9999;}
-#miniAssistant .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
-#miniResult{flex:1;background:#070707;padding:8px;border-radius:6px;overflow-y:auto;margin-bottom:8px;font-size:14px;}
-#miniQuery{width:100%;padding:6px;border-radius:6px;border:1px solid #222;background:#0b0b0b;color:#fff;margin-bottom:6px;}
 </style>
 </head>
 <body>
@@ -36,9 +31,8 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
   <div class="controls">
     <button id="startRec">🎤 Mic ON</button>
     <button id="stopRec">⏹ Mic OFF</button>
-    <button id="toggleAlwaysMic">🎙 Always Mic: OFF</button>
     <button id="stopVoice">🛑 Stop Voice</button>
-    <input id="manualQuery" placeholder="உதாரணம்: '2 ஆப்பிள் சேர்க்கு'..." />
+    <input id="manualQuery" placeholder="உதாரணம்: 'ஆப்பிள் விலை'..." />
     <button id="askBtn">🔎 தேடு</button>
     <button id="themeBtn">🌙 Theme</button>
     <div class="status" id="status">Dataset load ஆகுது...</div>
@@ -55,27 +49,22 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
   </div>
 </div>
 
-<!-- Mini Assistant -->
-<div id="miniAssistant">
-  <div class="header"><span>🤖 Assistant</span><button id="closeMini">✖</button></div>
-  <div id="miniResult"></div>
-  <input id="miniQuery" placeholder="Ask here..." />
-  <button id="miniAskBtn">Send</button>
-</div>
-
 <script>
-let products=[], cart={}, recognition=null, alwaysMic=false;
+/* === STATE === */
+let products=[], cart={}, recognition=null;
 const vids=['vTop','vBottom','vLeft','vRight'].map(id=>document.getElementById(id));
-let chatHistory=[];
 
-/* Dataset Load */
+/* === Dataset Load === */
 fetch('dataset.json').then(r=>r.json()).then(j=>{
-  products=j; loadCart();
+  products=j;
   document.getElementById("status").textContent=`Dataset loaded: ${products.length} items`;
+}).catch(e=>{
+  console.error(e);
+  document.getElementById("status").textContent="dataset.json load தோல்வி";
 });
 
-/* Helpers */
-function detectLang(s){return /[\u0b80-\u0bff]/.test(s)?'ta':'en';}
+/* === Helpers === */
+function detectLang(s){ return /[\u0b80-\u0bff]/.test(s)?'ta':'en'; }
 function fuzzySearch(q){q=q.toLowerCase();return products.find(p=>p.item?.toLowerCase().includes(q)||p.tamil_name?.includes(q))||null;}
 function formatReply(p,lang){return lang==='ta'?`${p.tamil_name} (${p.item}): ₹${p.price}/${p.unit}`:`${p.item} (${p.tamil_name}): ₹${p.price}/${p.unit}`;}
 function speak(text,lang){
@@ -88,25 +77,7 @@ function speak(text,lang){
   speechSynthesis.speak(u);
 }
 
-/* Cart System with Quantity */
-function addToCart(item,q=1){
-  const p=fuzzySearch(item); if(!p) return detectLang(item)==='ta'?"பொருள் கிடையாது":"Item not found";
-  cart[item]=(cart[item]||0)+q; saveCart();
-  return detectLang(item)==='ta'?`${p.tamil_name} ${q} pcs சேர்க்கப்பட்டது, மொத்தம் ${cart[item]} pcs`:`${p.item} ${q} pcs added, total ${cart[item]}`;
-}
-function removeFromCart(item){
-  if(!cart[item]) return detectLang(item)==='ta'?"Cart-ல் இல்லை":"Not in cart";
-  cart[item]-=1; if(cart[item]<=0) delete cart[item]; saveCart();
-  return detectLang(item)==='ta'?"Item cart-இல் இருந்து நீக்கப்பட்டது":"Item removed from cart";
-}
-function showCart(){
-  let total=0,text="Cart:\n"; for(const i in cart){const p=fuzzySearch(i); if(!p) continue; text+=`${p.item} x ${cart[i]} = ₹${p.price*cart[i]}\n`; total+=p.price*cart[i];}
-  text+=`Total: ₹${total}`; return text;
-}
-function saveCart(){localStorage.setItem("cart",JSON.stringify(cart));}
-function loadCart(){cart=JSON.parse(localStorage.getItem("cart")||"{}");}
-
-/* === Gemini Proxy via Render === */
+/* === Gemini Proxy === */
 async function callGemini(text, lang='en'){
   try {
     const resp = await fetch("https://holo-assistant-1.onrender.com/api/gemini", {
@@ -119,53 +90,38 @@ async function callGemini(text, lang='en'){
       console.error("Gemini proxy error:", data.error);
       return lang==='ta' ? "Gemini proxy பிழை" : "Gemini proxy error";
     }
-    return data.reply || (lang==='ta' ? "பதில் இல்லை" : "No answer");
+    const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text
+               || (lang==='ta' ? "பதில் இல்லை" : "No answer");
+    return reply;
   } catch(err) {
     console.error("Gemini request failed", err);
     return lang==='ta' ? "Gemini கோரிக்கை தோல்வி" : "Gemini request failed";
   }
 }
 
-/* Query Handler */
+/* === Query Handler === */
 async function handleQuery(text){
   text=text.trim(); if(!text) return;
   const lang=detectLang(text); let reply="", resultImg="";
-  if(text.toLowerCase().includes("stop")){speechSynthesis.cancel();return;}
-  if(text.toLowerCase().includes("mic off")){recognition && recognition.stop();alwaysMic=false;return;}
-  if(text.toLowerCase().includes("mic on")){recognition && recognition.start();alwaysMic=true;return;}
-  if(text.toLowerCase().includes("suggest")){const p=products[Math.floor(Math.random()*products.length)];reply=formatReply(p,lang);resultImg=p.image;}
-  else if(text.match(/add\s+(\d+)?\s*(.*)/i)){let m=text.match(/add\s+(\d+)?\s*(.*)/i);reply=addToCart(m[2],parseInt(m[1]||1));}
-  else if(text.match(/(\d+)\s*(.*)\s*சேர்க்கு/)){let m=text.match(/(\d+)\s*(.*)\s*சேர்க்கு/);reply=addToCart(m[2],parseInt(m[1]));}
-  else if(text.toLowerCase().includes("remove")){reply=removeFromCart(text.replace(/remove/i,''));}
-  else if(text.toLowerCase().includes("show cart")||text.toLowerCase().includes("total")){reply=showCart();}
-  else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang);resultImg=p.image||"";}else{reply=await callGemini(text,lang);}}
-  document.getElementById("resultBox").innerHTML=resultImg?`<img src="${resultImg}"/> ${reply}`:reply;
-  chatHistory.push({q:text,a:reply}); updateMiniChat();
+  if(text.toLowerCase().includes("stop")){speechSynthesis.cancel(); return;}
+  if(text.toLowerCase().includes("mic off")){recognition && recognition.stop(); return;}
+  if(text.toLowerCase().includes("mic on")){recognition && recognition.start(); return;}
+  else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang); resultImg=p.image||"";}else{reply=await callGemini(text,lang);} }
+  const box=document.getElementById("resultBox"); box.innerHTML=resultImg?`<img src="${resultImg}"/> ${reply}`:reply;
   speak(reply,lang);
 }
 
-/* Mini Assistant */
-function updateMiniChat(){
-  const box=document.getElementById("miniResult");
-  box.innerHTML=chatHistory.map(c=>`<b>Q:</b> ${c.q}<br><b>A:</b> ${c.a}<hr>`).join('');
-}
-
-/* STT */
-function initSTT(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR) return; recognition=new SR(); recognition.lang='ta-IN'; recognition.interimResults=false; recognition.onresult=e=>{const txt=e.results[0][0].transcript; document.getElementById("manualQuery").value=txt; handleQuery(txt); if(alwaysMic) recognition.start();};}
+/* === STT === */
+function initSTT(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR) return; recognition=new SR(); recognition.lang='ta-IN'; recognition.interimResults=false; recognition.onresult=e=>{const txt=e.results[0][0].transcript; document.getElementById("manualQuery").value=txt; handleQuery(txt);};}
 initSTT();
-
-/* Controls */
 document.getElementById("startRec").onclick=()=>recognition&&recognition.start();
 document.getElementById("stopRec").onclick=()=>recognition&&recognition.stop();
 document.getElementById("stopVoice").onclick=()=>speechSynthesis.cancel();
 document.getElementById("askBtn").onclick=()=>handleQuery(document.getElementById("manualQuery").value);
 document.getElementById("themeBtn").onclick=()=>document.body.classList.toggle("light");
-document.getElementById("toggleAlwaysMic").onclick=()=>{alwaysMic=!alwaysMic;document.getElementById("toggleAlwaysMic").textContent=alwaysMic?"🎙 Always Mic: ON":"🎙 Always Mic: OFF";}
-document.getElementById("miniAskBtn").onclick=()=>handleQuery(document.getElementById("miniQuery").value);
-document.getElementById("closeMini").onclick=()=>document.getElementById("miniAssistant").style.display="none";
 
-/* Holo Video Animation */
-function startAvatarTalking(start){vids.forEach(v=>{if(start){v.play();}else{v.pause();v.currentTime=0;}});}
+/* === Holo Video Animation === */
+function startAvatarTalking(start){vids.forEach(v=>{if(start){v.play();}else{v.pause(); v.currentTime=0;}});}
 </script>
 </body>
 </html>
