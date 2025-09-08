@@ -106,17 +106,24 @@ function showCart(){
 function saveCart(){localStorage.setItem("cart",JSON.stringify(cart));}
 function loadCart(){cart=JSON.parse(localStorage.getItem("cart")||"{}");}
 
-/* Gemini Proxy */
+/* === Gemini Proxy via Render === */
 async function callGemini(text, lang='en'){
   try {
-    const resp=await fetch("https://holo-assistant-1.onrender.com/api/gemini",{   // 🔗 updated API URL
-      method:"POST",headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({text,lang,context:products.slice(0,5)})
+    const resp = await fetch("https://holo-assistant-1.onrender.com/api/gemini", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text, lang })
     });
-    const data=await resp.json();
-    if(data.error) return lang==='ta'?"Gemini proxy பிழை":"Gemini proxy error";
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text || (lang==='ta'?"பதில் இல்லை":"No answer");
-  }catch(e){return lang==='ta'?"Gemini கோரிக்கை தோல்வி":"Gemini request failed";}
+    const data = await resp.json();
+    if(data.error){
+      console.error("Gemini proxy error:", data.error);
+      return lang==='ta' ? "Gemini proxy பிழை" : "Gemini proxy error";
+    }
+    return data.reply || (lang==='ta' ? "பதில் இல்லை" : "No answer");
+  } catch(err) {
+    console.error("Gemini request failed", err);
+    return lang==='ta' ? "Gemini கோரிக்கை தோல்வி" : "Gemini request failed";
+  }
 }
 
 /* Query Handler */
