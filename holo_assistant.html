@@ -16,18 +16,11 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
 .status{margin-left:8px;color:#aaa;font-size:0.9rem;flex:1}
 .resultBox{margin-top:12px;padding:12px;background:#070707;border:1px solid #222;border-radius:8px;min-height:48px;display:flex;align-items:center;gap:12px;}
 .resultBox img{height:40px;width:40px;border-radius:4px;object-fit:cover;}
-
-/* Holo stage */
 .holo-stage{margin-top:18px;display:flex;justify-content:center;}
 .holo-stage.is-hidden{display:none;}
 .pyramid{width:960px;height:540px;position:relative;}
 .pane{position:absolute;left:50%;top:50%;width:720px;height:380px;margin:-270px -480px;overflow:hidden}
 .pane video{width:100%;height:100%;display:block;object-fit:cover;}
-/* Mini Assistant */
-#miniAssistant{position:fixed;bottom:70px;right:20px;width:300px;height:400px;background:#111;color:#fff;border:2px solid #222;border-radius:12px;padding:12px;display:none;flex-direction:column;z-index:9999;}
-#miniAssistant .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
-#miniResult{flex:1;background:#070707;padding:8px;border-radius:6px;overflow-y:auto;margin-bottom:8px;font-size:14px;}
-#miniQuery{width:100%;padding:6px;border-radius:6px;border:1px solid #222;background:#0b0b0b;color:#fff;margin-bottom:6px;}
 </style>
 </head>
 <body>
@@ -55,23 +48,18 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
   </div>
 </div>
 
-<!-- Mini Assistant -->
-<div id="miniAssistant">
-  <div class="header"><span>🤖 Assistant</span><button id="closeMini">✖</button></div>
-  <div id="miniResult"></div>
-  <input id="miniQuery" placeholder="Ask here..." />
-  <button id="miniAskBtn">Send</button>
-</div>
-
 <script>
 let products=[], cart={}, recognition=null, alwaysMic=false;
 const vids=['vTop','vBottom','vLeft','vRight'].map(id=>document.getElementById(id));
 let chatHistory=[];
 
 /* Dataset Load */
-fetch('dataset.json').then(r=>r.json()).then(j=>{
+fetch('category_dataset_300plus.json').then(r=>r.json()).then(j=>{
   products=j; loadCart();
   document.getElementById("status").textContent=`Dataset loaded: ${products.length} items`;
+}).catch(e=>{
+  document.getElementById("status").textContent="Dataset load தோல்வி";
+  console.error(e);
 });
 
 /* Helpers */
@@ -109,7 +97,7 @@ function loadCart(){cart=JSON.parse(localStorage.getItem("cart")||"{}");}
 /* Gemini Proxy */
 async function callGemini(text, lang='en'){
   try {
-    const resp=await fetch("https://holo-assistant.onrender.com/api/gemini",{
+    const resp=await fetch("https://holo-assistant-1.onrender.com/api/gemini",{
       method:"POST",headers:{"Content-Type":"application/json"},
       body:JSON.stringify({text,lang,context:products.slice(0,5)})
     });
@@ -133,14 +121,8 @@ async function handleQuery(text){
   else if(text.toLowerCase().includes("show cart")||text.toLowerCase().includes("total")){reply=showCart();}
   else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang);resultImg=p.image||"";}else{reply=await callGemini(text,lang);}}
   document.getElementById("resultBox").innerHTML=resultImg?`<img src="${resultImg}"/> ${reply}`:reply;
-  chatHistory.push({q:text,a:reply}); updateMiniChat();
+  chatHistory.push({q:text,a:reply});
   speak(reply,lang);
-}
-
-/* Mini Assistant */
-function updateMiniChat(){
-  const box=document.getElementById("miniResult");
-  box.innerHTML=chatHistory.map(c=>`<b>Q:</b> ${c.q}<br><b>A:</b> ${c.a}<hr>`).join('');
 }
 
 /* STT */
@@ -154,8 +136,6 @@ document.getElementById("stopVoice").onclick=()=>speechSynthesis.cancel();
 document.getElementById("askBtn").onclick=()=>handleQuery(document.getElementById("manualQuery").value);
 document.getElementById("themeBtn").onclick=()=>document.body.classList.toggle("light");
 document.getElementById("toggleAlwaysMic").onclick=()=>{alwaysMic=!alwaysMic;document.getElementById("toggleAlwaysMic").textContent=alwaysMic?"🎙 Always Mic: ON":"🎙 Always Mic: OFF";}
-document.getElementById("miniAskBtn").onclick=()=>handleQuery(document.getElementById("miniQuery").value);
-document.getElementById("closeMini").onclick=()=>document.getElementById("miniAssistant").style.display="none";
 
 /* Holo Video Animation */
 function startAvatarTalking(start){vids.forEach(v=>{if(start){v.play();}else{v.pause();v.currentTime=0;}});}
