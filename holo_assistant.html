@@ -54,7 +54,7 @@ const vids=['vTop','vBottom','vLeft','vRight'].map(id=>document.getElementById(i
 let chatHistory=[];
 
 /* Dataset Load */
-fetch('category_dataset_300plus.json').then(r=>r.json()).then(j=>{
+fetch('category_dataset_300plus_ready.json').then(r=>r.json()).then(j=>{
   products=j; loadCart();
   document.getElementById("status").textContent=`Dataset loaded: ${products.length} items`;
 }).catch(e=>{
