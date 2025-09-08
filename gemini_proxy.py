@@ -12,16 +12,18 @@ CORS(app)  # Allow all origins for frontend access
 
 # Get API Key from environment
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-
 if not GEMINI_KEY:
     raise ValueError("❌ Please set GEMINI_API_KEY as an environment variable.")
 
-# Gemini 2.5 endpoint
+# Gemini 2.5 endpoint (you can change model if needed)
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key={GEMINI_KEY}"
 
 @app.route("/")
 def home():
-    return jsonify({"status": "✅ Gemini Proxy Running", "endpoint": "/api/gemini"})
+    return jsonify({
+        "status": "✅ Gemini Proxy Running",
+        "endpoint": "/api/gemini"
+    })
 
 @app.route("/api/gemini", methods=["POST"])
 def call_gemini():
@@ -34,7 +36,7 @@ def call_gemini():
         if not text:
             return jsonify({"error": "No text provided"}), 400
 
-        # Build prompt with context
+        # Build context prompt
         context_str = ""
         if context and isinstance(context, list):
             context_str = "\n\nHere is some product info:\n"
@@ -45,9 +47,9 @@ def call_gemini():
                 unit = c.get("unit", "")
                 context_str += f"- {item} ({tamil}) : ₹{price}/{unit}\n"
 
+        # Final prompt
         prompt = f"User asked in {lang}: {text}\n{context_str}\nAnswer shortly and clearly."
 
-        # Send to Gemini API
         payload = {
             "contents": [
                 {"parts": [{"text": prompt}]}
@@ -58,6 +60,8 @@ def call_gemini():
         resp.raise_for_status()
 
         result = resp.json()
+
+        # Extract reply text
         reply = (
             result.get("candidates", [{}])[0]
             .get("content", {})
@@ -74,4 +78,4 @@ def call_gemini():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port
+    app.run(host="0.0.0.0", port=port, debug=True)
