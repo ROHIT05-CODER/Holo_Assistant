@@ -5,24 +5,27 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>🤖 Hologram Grocery AI Assistant</title>
 <style>
-body{margin:0;background:#000;color:#eee;font-family:"Noto Sans Tamil",Segoe UI,Roboto;transition:0.4s;}
-body.light{background:#fff;color:#111;}
-.app{max-width:960px;margin:12px auto;padding:14px;}
-h1{color:#7be;font-size:1.2rem;margin:0 0 8px}
-.controls{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
-button,input{padding:8px;border-radius:8px;border:1px solid #222;background:#0b0b0b;color:#fff}
-button{cursor:pointer}
-body.light button,body.light input{background:#f0f0f0;color:#111;border:1px solid #ccc;}
-.status{margin-left:8px;color:#aaa;font-size:0.9rem;flex:1}
-.resultBox{margin-top:12px;padding:12px;background:#070707;border:1px solid #222;border-radius:8px;min-height:48px;display:flex;align-items:center;gap:12px;}
-.resultBox img{height:40px;width:40px;border-radius:4px;object-fit:cover;}
-
-/* Holo stage */
-.holo-stage{margin-top:18px;display:flex;justify-content:center;}
-.holo-stage.is-hidden{display:none;}
-.pyramid{width:960px;height:540px;position:relative;}
-.pane{position:absolute;left:50%;top:50%;width:720px;height:380px;margin:-270px -480px;overflow:hidden}
-.pane video{width:100%;height:100%;display:block;object-fit:cover;}
+body { margin:0; background:#000; color:#eee; font-family:"Noto Sans Tamil",Segoe UI,Roboto; }
+.app { max-width:960px; margin:12px auto; padding:14px; }
+h1 { color:#7be; font-size:1.2rem; margin:0 0 8px }
+.controls { display:flex; gap:8px; align-items:center; margin-top:10px; flex-wrap:wrap }
+button,input { padding:8px; border-radius:8px; border:1px solid #222; background:#0b0b0b; color:#fff }
+button { cursor:pointer }
+.status { margin-left:8px; color:#aaa; font-size:0.9rem; flex:1 }
+.resultBox { margin-top:12px; padding:12px; background:#070707; border:1px solid #222; border-radius:8px; min-height:48px; display:flex; align-items:center; gap:12px; }
+.resultBox img { height:40px; width:40px; border-radius:4px; object-fit:cover; }
+.holo-stage { margin-top:18px; display:flex; justify-content:center }
+.pyramid { width:640px; height:360px; position:relative }
+.pane { position:absolute; left:50%; top:50%; width:320px; height:180px; margin:-90px -160px; overflow:hidden }
+.pane video { width:100%; height:100%; display:block; object-fit:cover; }
+/* Mini assistant styles */
+#starBtn { position:fixed; bottom:20px; right:20px; z-index:9999; font-size:24px; padding:10px; border-radius:50%; background:#ff0; color:#000; cursor:pointer; }
+#miniAssistant { position:fixed; bottom:70px; right:20px; width:300px; height:400px; background:#111; color:#fff; border:2px solid #222; border-radius:12px; padding:12px; display:none; flex-direction:column; z-index:9999; }
+#miniAssistant .header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+#miniAssistant .header button { background:#222; color:#fff; border:none; border-radius:6px; padding:2px 6px; cursor:pointer; }
+#miniResult { flex:1; background:#070707; padding:8px; border-radius:6px; overflow-y:auto; margin-bottom:8px; }
+#miniQuery { width:100%; padding:6px; border-radius:6px; border:1px solid #222; background:#0b0b0b; color:#fff; margin-bottom:6px; }
+#miniControls { display:flex; gap:6px; }
 </style>
 </head>
 <body>
@@ -34,12 +37,11 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
     <button id="stopVoice">🛑 Stop Voice</button>
     <input id="manualQuery" placeholder="உதாரணம்: 'ஆப்பிள் விலை'..." />
     <button id="askBtn">🔎 தேடு</button>
-    <button id="themeBtn">🌙 Theme</button>
     <div class="status" id="status">Dataset load ஆகுது...</div>
   </div>
   <div class="resultBox" id="resultBox">பதில் இங்கே வரும்.</div>
 
-  <div class="holo-stage is-hidden">
+  <div class="holo-stage">
     <div class="pyramid">
       <div class="pane top"><video id="vTop" src="holo_avatar.mp4" loop muted playsinline></video></div>
       <div class="pane bottom"><video id="vBottom" src="holo_avatar.mp4" loop muted playsinline></video></div>
@@ -49,10 +51,24 @@ body.light button,body.light input{background:#f0f0f0;color:#111;border:1px soli
   </div>
 </div>
 
+<button id="starBtn">⭐</button>
+<div id="miniAssistant">
+  <div class="header"><span>🤖 Assistant</span><button id="closeMini">✖</button></div>
+  <div id="miniResult">பதில் இங்கே வரும்.</div>
+  <input id="miniQuery" placeholder="Ask here..." />
+  <div id="miniControls">
+    <button id="miniMicOn">🎤 Mic ON</button>
+    <button id="miniMicOff">⏹ Mic OFF</button>
+    <button id="miniStopVoice">🛑 Stop Voice</button>
+    <button id="miniAskBtn">🔎</button>
+  </div>
+</div>
+
 <script>
 /* === STATE === */
 let products=[], cart={}, recognition=null;
 const vids=['vTop','vBottom','vLeft','vRight'].map(id=>document.getElementById(id));
+let autoCloseTimer;
 
 /* === Dataset Load === */
 fetch('dataset.json').then(r=>r.json()).then(j=>{
@@ -65,69 +81,60 @@ fetch('dataset.json').then(r=>r.json()).then(j=>{
 
 /* === Helpers === */
 function detectLang(s){ return /[\u0b80-\u0bff]/.test(s)?'ta':'en'; }
-function fuzzySearch(q){q=q.toLowerCase();return products.find(p=>p.item?.toLowerCase().includes(q)||p.tamil_name?.includes(q))||null;}
-function formatReply(p,lang){return lang==='ta'?`${p.tamil_name} (${p.item}): ₹${p.price}/${p.unit}`:`${p.item} (${p.tamil_name}): ₹${p.price}/${p.unit}`;}
+function fuzzySearch(q){ q=q.toLowerCase(); return products.find(p=>p.item?.toLowerCase().includes(q)||p.tamil_name?.includes(q))||null; }
+function formatReply(p,lang){ return lang==='ta'?`${p.tamil_name} (${p.item}): ₹${p.price}/${p.unit}`:`${p.item} (${p.tamil_name}): ₹${p.price}/${p.unit}`; }
 function speak(text,lang){
   speechSynthesis.cancel();
   const u=new SpeechSynthesisUtterance(text);
   u.lang=(lang==='ta')?'ta-IN':'en-US';
   u.rate=1.2;
-  u.onstart=()=>{document.querySelector('.holo-stage').classList.remove('is-hidden'); startAvatarTalking(true);}
-  u.onend=()=>{document.querySelector('.holo-stage').classList.add('is-hidden'); startAvatarTalking(false);}
   speechSynthesis.speak(u);
 }
 
 /* === Gemini Proxy (Auto-detect host) === */
 async function callGemini(text, lang='en'){
   try {
-    // Auto-detect local vs Render
     let baseURL;
     if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-      baseURL = "http://127.0.0.1:5000";  // local Flask
+      baseURL = "http://127.0.0.1:5000"; // Local
     } else {
-      baseURL = "https://holo-assistant-1.onrender.com";  // Render
+      baseURL = "https://holo-assistant-1.onrender.com"; // Render
     }
 
     const resp = await fetch(`${baseURL}/api/gemini`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang })
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body:JSON.stringify({ text, lang })
     });
 
-    const data = await resp.json();
-    if (data.error) {
-      return lang === 'ta' ? "Gemini proxy பிழை" : "Gemini proxy error";
+    const data=await resp.json();
+    if(data.error){
+      return lang==='ta'?"Gemini proxy பிழை":"Gemini proxy error";
     }
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text 
-           || (lang === 'ta' ? "பதில் இல்லை" : "No answer");
-  } catch (err) {
-    return lang === 'ta' ? "Gemini கோரிக்கை தோல்வி" : "Gemini request failed";
+    return data?.candidates?.[0]?.content?.parts?.[0]?.text || (lang==='ta'?"பதில் இல்லை":"No answer");
+  } catch(err){
+    return lang==='ta'?"Gemini கோரிக்கை தோல்வி":"Gemini request failed";
   }
 }
 
 /* === Query Handler === */
 async function handleQuery(text){
   text=text.trim(); if(!text) return;
-  const lang=detectLang(text); let reply="", resultImg="";
-  if(text.toLowerCase().includes("stop")){speechSynthesis.cancel(); return;}
-  if(text.toLowerCase().includes("mic off")){recognition && recognition.stop(); return;}
-  if(text.toLowerCase().includes("mic on")){recognition && recognition.start(); return;}
-  else{const p=fuzzySearch(text); if(p){reply=formatReply(p,lang); resultImg=p.image||"";}else{reply=await callGemini(text,lang);} }
-  const box=document.getElementById("resultBox"); box.innerHTML=resultImg?`<img src="${resultImg}"/> ${reply}`:reply;
+  const lang=detectLang(text);
+  let reply="";
+  const product=fuzzySearch(text);
+  if(product){ reply=formatReply(product,lang); }
+  else { reply=await callGemini(text,lang); }
+
+  document.getElementById("resultBox").textContent=reply;
+  document.getElementById("miniResult").textContent=reply;
   speak(reply,lang);
 }
 
-/* === STT === */
-function initSTT(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR) return; recognition=new SR(); recognition.lang='ta-IN'; recognition.interimResults=false; recognition.onresult=e=>{const txt=e.results[0][0].transcript; document.getElementById("manualQuery").value=txt; handleQuery(txt);};}
-initSTT();
-document.getElementById("startRec").onclick=()=>recognition&&recognition.start();
-document.getElementById("stopRec").onclick=()=>recognition&&recognition.stop();
-document.getElementById("stopVoice").onclick=()=>speechSynthesis.cancel();
+/* === UI Bindings === */
 document.getElementById("askBtn").onclick=()=>handleQuery(document.getElementById("manualQuery").value);
-document.getElementById("themeBtn").onclick=()=>document.body.classList.toggle("light");
-
-/* === Holo Video Animation === */
-function startAvatarTalking(start){vids.forEach(v=>{if(start){v.play();}else{v.pause(); v.currentTime=0;}});}
+document.getElementById("miniAskBtn").onclick=()=>handleQuery(document.getElementById("miniQuery").value);
+document.getElementById("closeMini").onclick=()=>document.getElementById("miniAssistant").style.display="none";
 </script>
 </body>
 </html>
