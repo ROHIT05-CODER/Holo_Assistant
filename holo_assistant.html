@@ -80,12 +80,12 @@ function speak(text,lang){
 /* === Gemini Proxy (Auto-detect host) === */
 async function callGemini(text, lang='en'){
   try {
-    // Detect whether running locally or in Render
+    // Auto-detect local vs Render
     let baseURL;
     if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-      baseURL = "http://127.0.0.1:5000";
+      baseURL = "http://127.0.0.1:5000";  // local Flask
     } else {
-      baseURL = "https://holo-assistant-1.onrender.com"; // Render host
+      baseURL = "https://holo-assistant-1.onrender.com";  // Render
     }
 
     const resp = await fetch(`${baseURL}/api/gemini`, {
@@ -98,7 +98,8 @@ async function callGemini(text, lang='en'){
     if (data.error) {
       return lang === 'ta' ? "Gemini proxy பிழை" : "Gemini proxy error";
     }
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text || (lang === 'ta' ? "பதில் இல்லை" : "No answer");
+    return data?.candidates?.[0]?.content?.parts?.[0]?.text 
+           || (lang === 'ta' ? "பதில் இல்லை" : "No answer");
   } catch (err) {
     return lang === 'ta' ? "Gemini கோரிக்கை தோல்வி" : "Gemini request failed";
   }
