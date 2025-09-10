@@ -78,13 +78,15 @@ function speak(text,lang){
 }
 
 /* === Gemini Proxy === */
+/* === Gemini Proxy === */
 async function callGemini(text, lang='en'){
   try {
-    const resp = await fetch("https://holo-assistant-1.onrender.com/api/gemini", {
+    const resp = await fetch("https://holo-assistant-1.onrender.com/api/gemini", {   // ✅ new Render host
       method:"POST",
       headers:{ "Content-Type":"application/json" },
       body:JSON.stringify({ text, lang })
     });
+
     const data=await resp.json();
     if(data.error){
       return lang==='ta'?"Gemini proxy பிழை":"Gemini proxy error";
