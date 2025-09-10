@@ -81,21 +81,17 @@ function speak(text,lang){
 async function callGemini(text, lang='en'){
   try {
     const resp = await fetch("https://holo-assistant-1.onrender.com/api/gemini", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang })
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body:JSON.stringify({ text, lang })
     });
-    const data = await resp.json();
+    const data=await resp.json();
     if(data.error){
-      console.error("Gemini proxy error:", data.error);
-      return lang==='ta' ? "Gemini proxy பிழை" : "Gemini proxy error";
+      return lang==='ta'?"Gemini proxy பிழை":"Gemini proxy error";
     }
-    const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text
-               || (lang==='ta' ? "பதில் இல்லை" : "No answer");
-    return reply;
-  } catch(err) {
-    console.error("Gemini request failed", err);
-    return lang==='ta' ? "Gemini கோரிக்கை தோல்வி" : "Gemini request failed";
+    return data?.candidates?.[0]?.content?.parts?.[0]?.text || (lang==='ta'?"பதில் இல்லை":"No answer");
+  } catch(err){
+    return lang==='ta'?"Gemini கோரிக்கை தோல்வி":"Gemini request failed";
   }
 }
 
